@@ -1,7 +1,7 @@
 #mysidenav{
     position: fixed;
     margin-left:0;
-    margin-top: -500px;
+    margin-top: -400px;
    
 }
 #mysidenav a {
@@ -9,7 +9,7 @@
     width: 100px;
     padding: 10px;
     transition: 3s;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: -20px;
     text-decoration: none;
     color: white;
@@ -28,21 +28,12 @@
 }
 
 #home {
-    top: 20px;
+    top: 150px;
     background-color:skyblue;
     
 }
 
-#phone {
-    top: 85px;
 
-    background-color: #2ecc71;
-}
-
-#email {
-    top: 149px;
-    background-color: #3498db;
-}
 
 #facebook {
     top: 213px;
@@ -57,8 +48,20 @@
 
 
 
-
-
+@media only screen and (min-width: 1025px) and (max-width: 1480px) {
+    #mysidenav{
+        position: fixed;
+        margin-left:0;
+        margin-top: -650px;
+       
+    }
+  }
+@media only screen and (min-width: 1481px) and (max-width: 2100px) {
+    .searchBar{
+        margin-left: 200px;
+    }
+    
+  }
 
 
 

@@ -48,7 +48,7 @@ const Carousel = () => {
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg" alt=""/>
+                    <img src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg" alt="" />
 
 
 
@@ -56,7 +56,7 @@ const Carousel = () => {
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg" alt=""/>
+                    <img src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg" alt="" />
 
 
 
@@ -64,7 +64,7 @@ const Carousel = () => {
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/2Nxydyf/pexels-marek-piwnicki-10050574.jpg" alt=""/>
+                    <img src="https://i.ibb.co/2Nxydyf/pexels-marek-piwnicki-10050574.jpg" alt="" />
 
 
 
@@ -73,40 +73,40 @@ const Carousel = () => {
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg" alt=""/>
+                    <img src="https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg" alt="" />
 
 
-                    
+
 
                 </SwiperSlide>
 
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/JdGmZjd/pexels-ibadah-mimpi-3283186.jpg" alt=""/>
+                    <img src="https://i.ibb.co/JdGmZjd/pexels-ibadah-mimpi-3283186.jpg" alt="" />
 
 
-                    
+
 
                 </SwiperSlide>
 
 
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/FmYFxbY/pexels-julius-silver-753626.jpg" alt=""/>
+                    <img src="https://i.ibb.co/FmYFxbY/pexels-julius-silver-753626.jpg" alt="" />
 
 
-                
+
 
                 </SwiperSlide>
 
-                
+
                 <SwiperSlide className=''>
 
-                    <img src="https://i.ibb.co/PCGBxy0/pexels-tom-fisk-2213443.jpg" alt=""/>
+                    <img src="https://i.ibb.co/PCGBxy0/pexels-tom-fisk-2213443.jpg" alt="" />
 
 
-                  
+
 
                 </SwiperSlide>
 
@@ -119,8 +119,10 @@ const Carousel = () => {
 
             </Swiper>
 
+           
+
             <div className='absolute z-50 hidden lg:block'>
-            <SideNav></SideNav>
+                <SideNav></SideNav>
             </div>
         </div>
     );
