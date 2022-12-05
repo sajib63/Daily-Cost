@@ -1,8 +1,0 @@
-.countDown{
-    transition: 1s;
-}
-.countDown:hover{
-   background-color: rgb(239, 101, 51);
-   transition: 1s;
-   box-shadow: 20px;
-}

@@ -1,0 +1,64 @@
+#mysidenav{
+    position: fixed;
+    margin-left:0;
+    margin-top: -500px;
+   
+}
+#mysidenav a {
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    transition: 3s;
+    font-size: 40px;
+    margin-left: -20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    
+    
+ 
+    
+}
+
+#mysidenav a:hover {
+    left: 10px;
+    color: black;
+    transition: 3s;
+}
+
+#home {
+    top: 20px;
+    background-color:skyblue;
+    
+}
+
+#phone {
+    top: 85px;
+
+    background-color: #2ecc71;
+}
+
+#email {
+    top: 149px;
+    background-color: #3498db;
+}
+
+#facebook {
+    top: 213px;
+    background-color: #9b59b6;
+}
+
+#instagram {
+
+    top: 276px;
+    background-color: #e67e22;
+}
+
+
+
+
+
+
+
+

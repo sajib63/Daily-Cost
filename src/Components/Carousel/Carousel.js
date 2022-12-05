@@ -19,6 +19,7 @@ import image5 from '../../Assets/carousel/5.gif'
 import image6 from '../../Assets/carousel/6.gif'
 
 import { Link } from 'react-router-dom';
+import SideNav from '../Home/SideNav';
 
 
 const Carousel = () => {
@@ -38,94 +39,89 @@ const Carousel = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image1} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image1} alt="" />
 
-                    </div>
+
+
+
+
+
+                <SwiperSlide className=''>
+
+                    <img src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg" alt=""/>
+
+
+
                 </SwiperSlide>
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image2} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image2} alt="" />
+                <SwiperSlide className=''>
 
-                    </div>
+                    <img src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg" alt=""/>
+
+
+
                 </SwiperSlide>
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image3} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image3} alt="" />
+                <SwiperSlide className=''>
 
-                    </div>
+                    <img src="https://i.ibb.co/2Nxydyf/pexels-marek-piwnicki-10050574.jpg" alt=""/>
+
+
+
                 </SwiperSlide>
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image4} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image4} alt="" />
 
-                    </div>
+                <SwiperSlide className=''>
+
+                    <img src="https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg" alt=""/>
+
+
+                    
+
                 </SwiperSlide>
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image5} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image5} alt="" />
 
-                    </div>
+                <SwiperSlide className=''>
+
+                    <img src="https://i.ibb.co/JdGmZjd/pexels-ibadah-mimpi-3283186.jpg" alt=""/>
+
+
+                    
+
                 </SwiperSlide>
-                <SwiperSlide className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-1/2 hidden md:block'>
-                        <div className='w-12 h-12'>
 
-                            <img src={image6} alt="" />
-                        </div>
-                        <h1 className="text-4xl font-semibold text-orange-600 w-3/4">You Can Save Your Money By Tracking Your Cost</h1>
-                        <Link className='btn bg-orange-600 text-white border-0 mt-5'>Save Your Cost</Link>
-                    </div>
-                    <div>
-                        <img src={image6} alt="" />
 
-                    </div>
+                <SwiperSlide className=''>
+
+                    <img src="https://i.ibb.co/FmYFxbY/pexels-julius-silver-753626.jpg" alt=""/>
+
+
+                
+
                 </SwiperSlide>
+
+                
+                <SwiperSlide className=''>
+
+                    <img src="https://i.ibb.co/PCGBxy0/pexels-tom-fisk-2213443.jpg" alt=""/>
+
+
+                  
+
+                </SwiperSlide>
+
+
+
+
+
 
 
 
             </Swiper>
+
+            <div className='absolute z-50 hidden lg:block'>
+            <SideNav></SideNav>
+            </div>
         </div>
     );
 };

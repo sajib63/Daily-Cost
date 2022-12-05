@@ -1,35 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import coinImage from '../Assets/carousel/cost/1.gif'
 
 const Footer = () => {
     return (
-        <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="px-4 pt-16 mx-auto w-full ">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
-            <a
-              href="/"
-              aria-label="Go home"
-              title="Company"
-              className="inline-flex items-center"
-            >
-              <svg
-                className="w-8 text-deep-purple-accent-400"
-                viewBox="0 0 24 24"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                stroke="currentColor"
-                fill="none"
-              >
-                <rect x="3" y="1" width="7" height="12" />
-                <rect x="3" y="17" width="7" height="6" />
-                <rect x="14" y="1" width="7" height="6" />
-                <rect x="14" y="11" width="7" height="12" />
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                Company
-              </span>
-            </a>
+          <Link className="btn btn-ghost normal-case text-xl hover:bg-white">Daily
+                        <span className='w-8 h-8'>
+                            <img src={coinImage} alt="" />
+                        </span>
+                        <span className='text-orange-600'>Cost</span></Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
