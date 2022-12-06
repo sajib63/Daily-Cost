@@ -11,18 +11,19 @@ import "./Style.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-import image1 from '../../Assets/carousel/1.gif'
-import image2 from '../../Assets/carousel/2.gif'
-import image3 from '../../Assets/carousel/3.gif'
-import image4 from '../../Assets/carousel/4.gif'
-import image5 from '../../Assets/carousel/5.gif'
-import image6 from '../../Assets/carousel/6.gif'
 
-import { Link } from 'react-router-dom';
 import SideNav from '../Home/SideNav';
+import { useTypewriter } from 'react-simple-typewriter'
 
 
 const Carousel = () => {
+    const [text] = useTypewriter({
+        words: ['Hello', 'From', 'Typewriter', 'Hook!'],
+
+        loop: Infinity,
+        onLoopDone: () => console.log(`loop completed after 3 runs.`)
+    })
+
     return (
         <div>
             <Swiper
@@ -48,9 +49,10 @@ const Carousel = () => {
 
                 <SwiperSlide className=''>
 
+
                     <img src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg" alt="" />
 
-
+                    
 
                 </SwiperSlide>
 
@@ -108,6 +110,7 @@ const Carousel = () => {
 
 
 
+
                 </SwiperSlide>
 
 
@@ -119,11 +122,13 @@ const Carousel = () => {
 
             </Swiper>
 
-           
+
 
             <div className='absolute z-50 hidden lg:block'>
                 <SideNav></SideNav>
             </div>
+
+          
         </div>
     );
 };

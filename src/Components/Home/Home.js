@@ -1,11 +1,12 @@
 import { Button } from '@mui/material';
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css'
 
 import icon from '../../Assets/carousel/cost/2.gif'
 import Carousel from '../Carousel/Carousel';
-import { FaCarSide } from 'react-icons/fa';
+import { FaCarSide, FaStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 
@@ -14,6 +15,13 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const date = new Date();
+
+    const [text] = useTypewriter({
+        words: ['Hello', 'From', 'Typewriter', 'Hook!'],
+
+        loop: Infinity,
+        onLoopDone: () => console.log(`loop completed after 3 runs.`)
+    })
     return (
         <div className=''>
 
@@ -23,16 +31,9 @@ const Home = () => {
             <div className=' block'>
 
                 <Carousel></Carousel>
-                {/* <div className='container mx-auto searchBar flex bg-white shadow-2xl p-7 justify-center -mt-7 z-50 absolute ml-0 md:ml-0 lg:ml-0 xl:ml-20 '>
-                    <form >
-                        <input className='border-0' type="text" name="" placeholder='Type Where Your Place.....' id="" />
-                        <input type="submit" value="Search" className='btn bg-orange-500 border-0 mx-2' />
-                    </form>
 
 
-                </div> */}
-
-                <div className='container mx-auto bg-white shadow-2xl flex justify-center mt-5 p-5 z-50 overflow-auto'>
+                <div className='container mx-auto bg-white shadow-2xl flex justify-center mt-5 p-5 z-50 overflow-auto '>
                     <form className='grid grid-cols-1 md:grid-cols-4 gap-4 ' >
                         <input type="text" className='border-0' disabled name="" value={date} id="" />
                         <div className='mx-2'>
@@ -77,54 +78,261 @@ const Home = () => {
             </div>
 
 
-            <div className='container mx-auto mt-16 mb-16'>
+            <div className='container mx-auto gallery mt-16 mb-16'>
                 <div>
                     <section className="py-6  text-gray-50">
                         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+
                             <Link className='col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1'>
-                                <img src="https://source.unsplash.com/random/301x301/" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square" />
+
+
+                                <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+
+                                    <img src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg" alt="" className=" w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square" />
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className='  hiddenText flex justify-between  mx-5 '>
+                                            <div>
+                                                <h1 className="text-sm lg:text-3xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm lg:text-3xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm lg:text-3xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
                             </Link>
 
-                          
+
 
                             <Link className='aspect-square'>
 
-                                <img alt="" className="w-full  rounded-full h-full  shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?0" />
+
+
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl rounded-full">
+
+                                    <img alt="" className="w-full  rounded-full h-full  shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg" />
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText-2 flex justify-between mx-5 gap-3'>
+                                            <div className='mx-2'>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?1" />
+
+
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/2Nxydyf/pexels-marek-piwnicki-10050574.jpg" />
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?2" />
+
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg" />
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?3" />
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/JdGmZjd/pexels-ibadah-mimpi-3283186.jpg" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
                             </Link>
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?4" />
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/FmYFxbY/pexels-julius-silver-753626.jpg" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?5" />
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/PCGBxy0/pexels-tom-fisk-2213443.jpg" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?6" />
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img alt="" className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/6017chs/pexels-francesco-ungaro-409127.jpg" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
 
                             <Link>
-                                <img alt="" className="w-full h-full rounded-full shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?7" />
+                                <div className="relative overflow-hidden rounded-full transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img alt="" className="w-full h-full  shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/4WRxdPM/pexels-pixabay-315191.jpg" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText-2 flex justify-between mx-5 gap-3'>
+                                            <div className='mx-2'>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
 
                             <Link className='col-span-2 row-span-2 md:col-start-1 md:row-start-3'>
-                                <img src="https://source.unsplash.com/random/302x302/" alt="" className="w-full h-full  rounded shadow-sm min-h-96  bg-gray-500 aspect-square" />
+                                <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
+                                    <img src="https://i.ibb.co/DtP7xmm/pexels-pixabay-219692.jpg" alt="" className="w-full h-full  rounded shadow-sm min-h-96  bg-gray-500 aspect-square" />
+
+
+                                    <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
+
+
+                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                            <div >
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                            </div>
+
+                                            <div>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </Link>
 
                         </div>
@@ -134,8 +342,12 @@ const Home = () => {
             </div>
 
             <div className='my-36 '>
-                <p>hello</p>
+
+
+
             </div>
+
+
 
         </div>
     );
