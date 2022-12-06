@@ -10,11 +10,13 @@ const Navbar = () => {
 
 
     <li tabIndex={0}>
-      <Link to='/' className="justify-between hover:bg-white hover:text-sky-400 hover:underline">
+      <Link to='/' className="justify-between hover:bg-white hover:text-sky-400 hover:underline text-sm lg:text-lg">
         Home
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
+      <ul className=" bg-white shadow-2xl ">
+      <div className='hidden md:block'>
+          
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Travel Agency</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Winter Holidays</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Exotic Destinations</Link></li>
@@ -24,6 +26,7 @@ const Navbar = () => {
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Wne Tours</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Vacation Showcase</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Landing</Link></li>
+          </div>
 
       </ul>
     </li>
@@ -34,7 +37,9 @@ const Navbar = () => {
         Pages
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
+      <ul className=" bg-white shadow-2xl ">
+      <div className='hidden md:block'>
+          
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>About Us</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>What We Offer</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Our Team</Link></li>
@@ -43,6 +48,7 @@ const Navbar = () => {
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>FAQ Page</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Coming Soon</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Error Page</Link></li>
+          </div>
       </ul>
     </li>
 
@@ -53,10 +59,13 @@ const Navbar = () => {
         Destination
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
+      <ul className=" bg-white shadow-2xl">
+      <div className='hidden md:block'>
+          
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Destination List</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Destination Slider</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Destination Item</Link></li>
+          </div>
       </ul>
     </li>
 
@@ -68,11 +77,14 @@ const Navbar = () => {
         Tours
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
+      <ul className=" bg-white shadow-2xl ">
+      <div className='hidden md:block'>
+          
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Standard List</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Gallery List</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Split List</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Tour Item</Link></li>
+          </div>
       </ul>
     </li>
 
@@ -83,10 +95,14 @@ const Navbar = () => {
         Blog
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
-        <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Blog Masonry</Link></li>
+      <ul className=" bg-white shadow-2xl">
+      <div className='hidden md:block'>
+      <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Blog Masonry</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Blog Standard</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Post Types</Link></li>
+        </div>
+       
+       
 
 
       </ul>
@@ -99,9 +115,11 @@ const Navbar = () => {
         Shop
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl">
+      <ul className=" bg-white shadow-2xl ">
+        <div className='hidden md:block'>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Product List</Link></li>
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Product Single</Link></li>
+        </div>
       </ul>
     </li>
 
@@ -110,8 +128,8 @@ const Navbar = () => {
         Elements
 
       </Link>
-      <ul className="p-2 bg-white shadow-2xl w-0 md:w-[1105px] ml-0 lg:-ml-[720px] ">
-        <div className='lg:grid lg:grid-cols-4 mx-3 bg-white '>
+      <ul className=" bg-white shadow-2xl navsItems ">
+        <div className='grid grid-cols-4 md:mx-10 lg:mx-12'>
 
           <div className='hidden lg:block'>
             <li><Link to='' className='hover:bg-white text-sky-400 hover:underline'>FEATURED</Link></li>
@@ -177,7 +195,7 @@ const Navbar = () => {
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3  shadow bg-base-100 rounded-box w-52">
               {navItems}
             </ul>
           </div>

@@ -10,7 +10,7 @@
     padding: 10px;
     transition: 3s;
     font-size: 35px;
-    margin-left: -20px;
+    margin-left: -80px;
     text-decoration: none;
     color: white;
     border-radius: 0 5px 5px 0;
@@ -22,7 +22,7 @@
 }
 
 #mysidenav a:hover {
-    left: 10px;
+    left: 80px;
     color: black;
     transition: 3s;
 }
