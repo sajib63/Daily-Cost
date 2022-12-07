@@ -6,6 +6,7 @@ import './SideNav.css'
 const SideNav = () => {
     return (
         <div id="mysidenav" class="sidenav">
+           
             
             <Link to='' id="home" ><FaFacebook className='ml-4'></FaFacebook></Link>
             

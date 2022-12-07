@@ -124,7 +124,8 @@ const Carousel = () => {
 
 
 
-            <div className='absolute z-50 hidden lg:block'>
+            <div className='absolute z-50 hidden lg:block '>
+                
                 <SideNav></SideNav>
             </div>
 

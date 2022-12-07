@@ -32,6 +32,10 @@
     .hiddenText-2 h1{
         font-size: 10px;
     }
+    .hiddenText-3{
+        margin-top: 90px;
+        margin-left: -5px;
+    }
     
 }
 @media only screen and (min-width: 321px) and (max-width: 400px) {
@@ -50,6 +54,11 @@
         gap: 5px;
 
     }
+    .hiddenText-3{
+        margin-top: 105px;
+        margin-left: -1px;
+    }
+    
    
    
     
@@ -65,6 +74,10 @@
     .hiddenText-2{
         margin-top: 90px;
         margin-left: -1px;
+    }
+    .hiddenText-3{
+        margin-top: 130px;
+        margin-left: -0.5px;
     }
  
     .navsItems{
@@ -90,6 +103,10 @@
     .hiddenText-2 h1{
         font-size: 10px;
     }
+    .hiddenText-3{
+        margin-top: 145px;
+        margin-left: -0.5px;
+    }
     .navsItems{
         width: 1024px;
         margin-left: -728px;
@@ -113,6 +130,11 @@
         gap: 5px;
 
     }
+    .hiddenText-3{
+        margin-top: 170px;
+        margin-left: -0.5px;
+    }
+    
     .navsItems{
         width: 1440px;
         margin-left: -890px;
@@ -135,9 +157,15 @@
         gap: 5px;
 
     }
+
+    .hiddenText-3{
+        margin-top: 245px;
+        margin-left: -0.5px;
+    }
     .navsItems{
         width: 1914px;
         margin-left: -1130px;
+        transition: 3s;
     }
     
 }

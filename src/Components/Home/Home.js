@@ -4,9 +4,13 @@ import './Home.css'
 
 import icon from '../../Assets/carousel/cost/2.gif'
 import Carousel from '../Carousel/Carousel';
-import { FaCarSide, FaStar } from 'react-icons/fa';
+import { FaCarSide, FaPlay, FaStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import image from '../../Assets/greeting from paris.png'
+import VideoModal from './VideoModal';
+import FourIconCards from './FourIconCards';
+import PerFactHoliday from './PerFactHoliday';
 
 
 
@@ -77,6 +81,13 @@ const Home = () => {
 
             </div>
 
+            {/* all data start  */}
+
+            <div className='container mx-auto justify-center items-center text-center mt-10'>
+                <h1 className='font-mono font-bold text-3xl text-sky-500 '>Choose Your</h1>
+                <h1 className='font-mono font-bold text-5xl my-3 text-sky-500 '>Perfect Holiday</h1>
+            </div>
+
 
             <div className='container mx-auto gallery mt-16 mb-16'>
                 <div>
@@ -95,12 +106,12 @@ const Home = () => {
 
                                         <div className='  hiddenText flex justify-between  mx-5 '>
                                             <div>
-                                                <h1 className="text-sm lg:text-3xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm lg:text-3xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm lg:text-3xl font-semibold text-white">Spain</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm lg:text-3xl text-white">$1780</h1>
+                                                <h1 className="text-sm lg:text-3xl text-white">$2780</h1>
                                             </div>
                                         </div>
 
@@ -118,18 +129,18 @@ const Home = () => {
 
                                 <div className="relative overflow-hidden transition duration-300 transform  shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl rounded-full">
 
-                                    <img alt="" className="w-full  rounded-full h-full  shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg" />
+                                    <img alt="" className="w-full  rounded-full h-full  shadow-sm min-h-48 bg-gray-500 aspect-square" src="https://i.ibb.co/McyWGNc/tarragona.jpg" />
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
                                         <div className=' hiddenText-2 flex justify-between mx-5 gap-3'>
                                             <div className='mx-2'>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Tarragona</h1>
 
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1980</h1>
                                             </div>
                                         </div>
 
@@ -147,14 +158,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Madrid</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1680</h1>
                                             </div>
                                         </div>
 
@@ -172,14 +183,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Barcelona</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$3780</h1>
                                             </div>
                                         </div>
 
@@ -196,14 +207,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Tainan</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1880</h1>
                                             </div>
                                         </div>
 
@@ -221,14 +232,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taiwan</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1280</h1>
                                             </div>
                                         </div>
 
@@ -245,14 +256,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Kaohsiung</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1380</h1>
                                             </div>
                                         </div>
 
@@ -269,14 +280,14 @@ const Home = () => {
                                     <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-10 opacity-0 hover:opacity-100">
 
 
-                                        <div className=' hiddenText flex justify-between mx-5 gap-3'>
+                                        <div className=' hiddenText-3 flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taipei</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1200</h1>
                                             </div>
                                         </div>
 
@@ -296,12 +307,12 @@ const Home = () => {
 
                                         <div className=' hiddenText-2 flex justify-between mx-5 gap-3'>
                                             <div className='mx-2'>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Bali</h1>
 
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$4780</h1>
                                             </div>
                                         </div>
 
@@ -321,12 +332,12 @@ const Home = () => {
 
                                         <div className=' hiddenText flex justify-between mx-5 gap-3'>
                                             <div >
-                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Taragona</h1>
-                                                <h1 className='text-sm md:text-sm lg:text-2xl font-semibold flex gap-2'><FaStar></FaStar> 5.0 Good</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl font-semibold text-white">Ubud</h1>
+
                                             </div>
 
                                             <div>
-                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$1780</h1>
+                                                <h1 className="text-sm md:text-sm lg:text-2xl text-white">$6780</h1>
                                             </div>
                                         </div>
 
@@ -341,14 +352,49 @@ const Home = () => {
 
             </div>
 
-            <div className='my-36 '>
+            {/* paris img  */}
+            <div className='my-6 justify-center items-center text-center flex '>
+
+                <img src={image} alt="" />
+
+            </div>
+
+            {/* video section start  */}
 
 
+            <div className="hero md:h-[400px] lg:h-[700px]" style={{ backgroundImage: `url("https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg")` }}>
+                <div>
+
+                    <div className="hero-content text-center text-neutral-content ">
+                        <div className="max-w-md">
+                            <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">Go & Discover</h1>
+
+                            <p className="mb-5 text-sm md:text-5xl">Breathtaking Cities</p>
+
+                            <label htmlFor="VideoModal" className='btn bg-sky-500 border-0 hover:bg-sky-400 text-3xl'><FaPlay></FaPlay></label>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
 
+            <div className='w-[1200px]'>
+                <VideoModal></VideoModal>
+            </div>
 
+
+
+
+            <div className='container mx-auto  my-16'>
+                <FourIconCards></FourIconCards>
+            </div>
+
+
+            <div>
+                <PerFactHoliday></PerFactHoliday>
+            </div>
         </div>
     );
 };
