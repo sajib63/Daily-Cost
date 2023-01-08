@@ -2,19 +2,19 @@
     position: fixed;
     margin-left:0;
     margin-top: -400px;
+  
    
 }
 #mysidenav a {
     position: absolute;
-    width: 100px;
+    width: 70px;
     padding: 10px;
-    transition: 3s;
     font-size: 35px;
-    margin-left: -80px;
     text-decoration: none;
     color: white;
     border-radius: 0 5px 5px 0;
     text-align: center;
+    transition: 1s;
     
     
  
@@ -22,14 +22,16 @@
 }
 
 #mysidenav a:hover {
-    left: 80px;
+    width: 90px;
     color: black;
-    transition: 3s;
+    transition: ease 1s;
+   
 }
 
 #home {
     top: 150px;
     background-color:skyblue;
+    transition: ease 5s;
     
 }
 
@@ -38,12 +40,14 @@
 #facebook {
     top: 213px;
     background-color: #9b59b6;
+    transition: ease 3s;
 }
 
 #instagram {
 
     top: 276px;
     background-color: #e67e22;
+    transition: ease 1s;
 }
 
 

@@ -3,18 +3,18 @@ import { FaCartPlus, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import coinImage from '../Assets/carousel/cost/1.gif'
 
-
+import './Home/Home.css'
 const Navbar = () => {
 
   const navItems = <>
 
 
     <li tabIndex={0}>
-      <Link to='/' className="justify-between hover:bg-white hover:text-sky-400 hover:underline text-sm lg:text-lg">
+      <Link to='/' className="justify-between hover:bg-white hover:text-sky-400 transition duration-300  hover:underline text-sm lg:text-lg">
         Home
 
       </Link>
-      <ul className=" bg-white shadow-2xl ">
+      <ul className=" bg-white shadow-2xl duration-1000">
       <div className='hidden md:block'>
           
         <li><Link to='' className='hover:bg-white hover:text-sky-400 hover:underline'>Travel Agency</Link></li>
@@ -199,7 +199,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link to='/' className=" text-sm lg:text-3xl  font-semibold text-orange-400 ml-0 lg:ml-10"><span>
+          <Link to='/' className=" text-sm lg:text-3xl  font-semibold text-sky-400 ml-0 lg:ml-10"><span>
             Passenger</span></Link>
         </div>
         <div className="navbar-center hidden lg:flex text-lg font-semibold">
