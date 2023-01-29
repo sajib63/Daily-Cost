@@ -1,4 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
+import AreaDetails from "../Components/Area/AreaDetails";
+import Area from "../Components/CountryArea/Area";
 import Home from "../Components/Home/Home";
 import Login from "../Components/Login";
 import Register from "../Components/Register";
@@ -20,6 +22,17 @@ export const router=createBrowserRouter([
         {
             path:'/register',
             element:<Register></Register>
+        },
+        {
+            path:'/area/:id',
+            loader: ({ params }) => fetch(`http://localhost:5000/allCountry/${params.id}`),
+            element:<Area></Area>
+        },
+
+        {
+            path:'/areaDetails/:id',
+            loader: ({ params }) => fetch(`http://localhost:5000/areaDetails/${params.id}`),
+            element:<AreaDetails></AreaDetails>
         }
        ] 
     }

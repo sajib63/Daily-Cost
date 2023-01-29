@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 
 const ReviewCarousel = ({reviews}) => {
-    console.log(reviews);
+   
     return (
         <div>
         <Swiper

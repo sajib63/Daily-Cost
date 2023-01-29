@@ -1,0 +1,610 @@
+[
+    {
+        "name":"Bangladesh",
+        "picture":"https://i.ibb.co/3TgVY10/rangamati.jpg",
+        "details":"Bangladesh is one of the most densely populated countries in the world with an estimated 171 million people (in 2021).",
+        "visitingArea":[
+            {
+                "area":"Cox's-Bazar",
+                "picture":[                
+                    "https://i.ibb.co/jRxKKTN/coxbazar.jpg",
+                    "https://i.ibb.co/YcV66VZ/coxbazar2.jpg",
+                    "https://i.ibb.co/jv6ZX7D/coxbazar3.jpg",
+                    "https://i.ibb.co/1X0xLNh/coxbazar4.jpg",
+                    "https://i.ibb.co/5RGG6t5/coxbazar5.jpg"
+                ],
+                "details":"Cox's Bazar is a city, fishing port, tourism centre, and district headquarters in Southeastern Bangladesh.",
+                "price":"1023",
+                "day":"03",
+                "rating":"4.8"
+            },
+
+            {
+                "area":"Rangamati",
+                "picture":[
+                    "https://i.ibb.co/3TgVY10/rangamati.jpg",
+                    "https://i.ibb.co/7zZckDZ/rangamati5.jpg",
+                    "https://i.ibb.co/H7mXNq5/rangamati4.jpg",
+                    "https://i.ibb.co/wN3C1hL/rangamati3.jpg",
+                    "https://i.ibb.co/XjHfY4d/rangamati2.jpg"
+                ],
+                "details":"Rangamati district is a district of natural beauties & cultural heritage.",
+                "price":"1203",
+                "day":"03",
+                "rating":"5"
+            },
+
+
+            {
+                "area":"Bandarban",
+                "picture":[
+                    "https://i.ibb.co/jVS98Md/bandaban3-Copy.jpg",
+                    "https://i.ibb.co/P9xPwYQ/bandarban5.jpg",
+                    "https://i.ibb.co/R4yDyzp/bandarban4.jpg",
+                    "https://i.ibb.co/McSY6HW/bandarban2-Copy.jpg",
+                    "https://i.ibb.co/pKWcWW8/bandarban-Copy.jpg"
+                ],
+                "details":"It is one of the three hill districts of Bangladesh and a part of the Chittagong Hill Tracts, the others being Rangamati District and Khagrachhari District.",
+                "price":"1123",
+                "day":"04",
+                "rating":"4.7"
+            },
+
+
+
+            {
+                "area":"Saint-Martin",
+                "picture":[
+                    "https://i.ibb.co/fF7NwZq/saintmartin.jpg",
+                    "https://i.ibb.co/TvStqYp/saintmartin5.jpg",
+                    "https://i.ibb.co/7X6YGBd/saintmartin4.jpg",
+                    "https://i.ibb.co/16J5bhM/saintmartin3.jpg",
+                    "https://i.ibb.co/DGDck35/saintmartin2.jpg"
+                ],
+                "details":"St. Martin is generally known as “Narikel Zinzira” in Bengali, means 'Coconut Island' and this is the only coral reef island in Bangladesh. ",
+                "price":"1523",
+                "day":"03",
+                "rating":"4.9"
+            },
+
+
+
+            {
+                "area":"Sylhet",
+                "picture":[
+                    "https://i.ibb.co/KX5g2r0/sylhet-Copy.jpg",
+                    "https://i.ibb.co/QHvsXDy/sylhet5.jpg",
+                    "https://i.ibb.co/gDBqDtx/sylhet4.jpg",
+                    "https://i.ibb.co/8X0tjVn/sylhet3-Copy.jpg",
+                    "https://i.ibb.co/M9Bm3TY/sylhet2-Copy.jpg"
+                ],
+                "details":"Sylhet is one of the oldest city in Bangladesh having a vast historical and cultural background and diversified inhabitants of Garo , Khasia, Monipuri and,Hazong. ",
+                "price":"2023",
+                "day":"05",
+                "rating":"5"
+            }
+        ]
+    },
+
+
+
+
+    {
+        "name":"China",
+        "picture":"https://i.ibb.co/g7pFY9c/china.jpg",
+        "details":"It is the world's most populous country, with a population exceeding 1.4 billion, slightly ahead of India.",
+        "visitingArea":[
+            {
+                "area":"Cruising the Li River",
+                "picture":[
+                    "https://i.ibb.co/mRLcnQc/pexels-photo-189833.jpg",
+                    "https://i.ibb.co/YNfFf6Z/pexels-photo-7394083.jpg",
+                    "https://i.ibb.co/z2Vh6fF/pexels-photo-2845963.jpg",
+                    "https://i.ibb.co/Csy1WdK/pexels-photo-2310872.jpg",
+                    "https://i.ibb.co/TmnLfCh/pexels-photo-2310853.jpg"
+                ],
+                "details":"All morning cruises starts from either the Zhujiang or Mopanshan Pier. These piers are located approximately 40 minutes' drive from Guilin city.",
+                "price":"1423",
+                "day":"03",
+                "rating":"4.7"
+            },
+
+            {
+                "area":"Great Wall of China",
+                "picture":[
+                    "https://i.ibb.co/TKBByfY/pexels-photo.jpg",
+                    "https://i.ibb.co/Jdt6B0G/pexels-photo-5504693.jpg",
+                    "https://i.ibb.co/BB9QKqL/pexels-photo-5504688.jpg",
+                    "https://i.ibb.co/CVMz2ky/pexels-photo-3262994.jpg",
+                    "https://i.ibb.co/SssHdQh/pexels-photo-3233096.jpg"
+                ],
+                "details":"It is about 21,196 kilometers long, 9.1 metres (30 feet) wide and 15 metres high.",
+                "price":"1723",
+                "day":"03",
+                "rating":"4.8"
+            },
+
+
+            {
+                "area":"The Forbidden City & the Imperial Palace",
+                "picture":[
+                    "https://i.ibb.co/RDrQMzv/pexels-photo-1115175.jpg",
+                    "https://i.ibb.co/7JRrDfB/pexels-photo-9373300.jpg",
+                    "https://i.ibb.co/GCzg8gV/pexels-photo-6206423.jpg",
+                    "https://i.ibb.co/VW65j8Z/pexels-photo-5244473.jpg",
+                    "https://i.ibb.co/CH7CFtc/pexels-photo-1486577.webp"
+                ],
+                "details":"The Forbidden City was the political and ritual center of China for over 500 years",
+                "price":"2320",
+                "day":"06",
+                "rating":"4.9"
+            },
+
+
+
+            {
+                "area":"The Summer Palace",
+                "picture":[
+                    "https://i.ibb.co/9bqgDMY/pexels-photo-235648.jpg",
+                    "https://i.ibb.co/8b8yqdS/pexels-photo-3134681.jpg",
+                    "https://i.ibb.co/qRqDtKV/pexels-photo-2846070.jpg",
+                    "https://i.ibb.co/Y3nNdNh/pexels-photo-2846069.jpg",
+                    "https://i.ibb.co/mvHzc9m/pexels-photo-2846016.jpg"
+                ],
+                "details":"The Summer Palace is a vast ensemble of lakes, gardens and palaces in Beijing.",
+                "price":"1323",
+                "day":"03",
+                "rating":"5"
+            },
+
+
+
+            {
+                "area":"The Terracotta Army",
+                "picture":[
+                    "https://i.ibb.co/TcMkrkm/pexels-photo-4788183.jpg",
+                    "https://i.ibb.co/sQwcKqg/pexels-photo-14645385.jpg",
+                    "https://i.ibb.co/4pgscwZ/pexels-photo-14307387.jpg",
+                    "https://i.ibb.co/zFWnwxC/pexels-photo-6930132.jpg",
+                    "https://i.ibb.co/mDSKv0L/pexels-photo-5342720.jpg"
+                ],
+                "details":"The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first emperor of China.",
+                "price":"1923",
+                "day":"03",
+                "rating":"4.3"
+            }
+        ]
+    },
+    
+
+
+
+
+    {
+        "name":"afghanistan",
+        "picture":"https://i.ibb.co/TKskmth/istockphoto-509793364-612x612.jpg",
+        "details":"Afghanistan is a landlocked country located in Southern Asia that borders China, Iran, Pakistan, Tajikistan, Turkmenistan, and Uzbekistan.",
+        "visitingArea":[
+            {
+                "area":"Balkh",
+                "picture":[
+                    "https://i.ibb.co/WHCrkcj/istockphoto-1333243864-612x612.jpg",
+                    "https://i.ibb.co/SPFynMs/istockphoto-1422795600-612x612.jpg",
+                    "https://i.ibb.co/0GZc75s/istockphoto-1341721581-612x612.jpg",
+                    "https://i.ibb.co/F8pnPth/istockphoto-1334080689-612x612.jpg",
+                    "https://i.ibb.co/y0TtxVL/istockphoto-1333544774-612x612.jpg"
+                ],
+                "details":"Balkh, also called Vazīrābād, village in northern Afghanistan that was formerly Bactra, the capital of ancient Bactria.",
+                "price":"3023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Herat",
+                "picture":[
+                    "https://i.ibb.co/9TFb6Gh/istockphoto-490861118-612x612.jpg",
+                    "https://i.ibb.co/7KY7R2X/istockphoto-1191388295-612x612.jpg",
+                    "https://i.ibb.co/Sf6wF7S/istockphoto-616257348-612x612.jpg",
+                    "https://i.ibb.co/0ys1wrX/istockphoto-491114988-612x612.jpg",
+                    "https://i.ibb.co/0V090PK/istockphoto-490966808-612x612.jpg"
+                ],
+                "details":"Herāt is the focus of one of the country's most densely populated and fertile agricultural areas, irrigated from the Harīrūd.",
+                "price":"3623",
+                "day":"07",
+                "rating":"4.6"
+            },
+
+
+            {
+                "area":"Jalalabad",
+                "picture":[
+                    "https://i.ibb.co/XYMXBJZ/istockphoto-157522905-612x612.jpg",
+                    "https://i.ibb.co/kXYQdnX/istockphoto-1342334918-612x612.jpg",
+                    "https://i.ibb.co/ZhpnPqK/istockphoto-1342334902-612x612.jpg",
+                    "https://i.ibb.co/RDXDmG8/istockphoto-940140256-612x612.jpg",
+                    "https://i.ibb.co/TKskmth/istockphoto-509793364-612x612.jpg"
+                ],
+                "details":"The city population is estimated to be 280,685 in year 2021. It has six districts and a total land area of 12,796 hectares (31,620 acres).",
+                "price":"1823",
+                "day":"04",
+                "rating":"4.6"
+            },
+
+
+
+            {
+                "area":"Kandahar",
+                "picture":[
+                    "https://i.ibb.co/3Sq8PBD/istockphoto-452591397-612x612.jpg",
+                    "https://i.ibb.co/WySsMHQ/istockphoto-1175081513-612x612.jpg",
+                    "https://i.ibb.co/74VpH2n/istockphoto-1175081439-612x612.jpg",
+                    "https://i.ibb.co/Vx523Xt/istockphoto-518832713-612x612.jpg",
+                    "https://i.ibb.co/1G0Z1S9/istockphoto-462186385-612x612.jpg"
+                ],
+                "details":"It is Afghanistan's second largest city after Kabul, with a population of about 614,118. It is the capital of Kandahar Province as well as the headquarters of the Taliban, formally known as the Islamic Emirate of Afghanistan.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+
+
+            {
+                "area":"Mazar-e Sharif",
+                "picture":[
+                    "https://i.ibb.co/WHCrkcj/istockphoto-1333243864-612x612.jpg",
+                    "https://i.ibb.co/ZTdHpcN/istockphoto-1333924743-612x612.jpg",
+                    "https://i.ibb.co/7SYv7BS/istockphoto-1333924743-612x612-1.jpg",
+                    "https://i.ibb.co/HrPbs6T/istockphoto-1333783232-612x612.jpg",
+                    "https://i.ibb.co/Km0vknW/istockphoto-1333622367-612x612.jpg"
+                ],
+                "details":"Etymology. The name Mazar-i-Sharif means tomb of the saint,a reference to the tomb of Hazrat Ali ibn Abi Talib, cousin, son-in-law and companion of the Islamic prophet Muhammad",
+                "price":"1323",
+                "day":"03",
+                "rating":"3.5"
+            }
+        ]
+    },
+    {
+        "name":"France",
+        "picture":"https://i.ibb.co/Nx2LxDd/pexels-photo-2675266.jpg",
+        "details":"France is one of the oldest nations on Earth and the most ethnically diverse country in Europe. These deep and broad influences have made France a world leader throughout history in nearly all aspects of culture, including cuisine, wine-making, politics, philosophy, music, art, film, fashion, literature, and sports.",
+        "visitingArea":[
+            {
+                "area":"Eiffel Tower",
+                "picture":[
+                    "https://i.ibb.co/8KBCLQN/pexels-photo-1125212.jpg",
+                    "https://i.ibb.co/vkK5LZF/pexels-photo-3698913.jpg",
+                    "https://i.ibb.co/DK7kjcS/pexels-photo-5090487.jpg",
+                    "https://i.ibb.co/Vmjtw3F/pexels-photo-14979393.jpg",
+                    "https://i.ibb.co/g40f5pN/pexels-photo-15113030.jpg"
+                ],
+                "details":"The Eiffel Tower is a wrought iron tower that stands 1,063 ft (324 m) tall. It was designed for the Exposition Universelle, a world fair held in Paris in 1889. It is currently the most famous symbol of Paris",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+
+            {
+                "area":"Musée du Louvre",
+                "picture":[
+                    " https://i.ibb.co/R2tsLhZ/pexels-photo-2130610.jpg ",
+                    " https://i.ibb.co/Nx2LxDd/pexels-photo-2675266.jpg ",
+                    "  https://i.ibb.co/CvsxHqZ/pexels-photo-5742603.jpg ",
+                    "https://i.ibb.co/fMGgFNC/pexels-photo-6194357.jpg ",
+                    "      https://i.ibb.co/ZXs2GhR/pexels-photo-10107413.jpg "
+                  
+                ],
+                "details":"The Louvre is a universal museum with eight curatorial departments : Egyptian Antiquities ; Near Eastern Antiquities ; Greek, Etruscan and Roman Antiquities ; Paintings ; Sculptures ; Decorative Arts ; Prints and Drawings ; and Islamic Art",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+           
+            {
+                "area":"Château de Versailles",
+                "picture":[
+                    " https://i.ibb.co/R2tsLhZ/pexels-photo-2130610.jpg",
+                    " https://i.ibb.co/Nx2LxDd/pexels-photo-2675266.jpg",
+                    " https://i.ibb.co/CvsxHqZ/pexels-photo-5742603.jpg",
+                    "https://i.ibb.co/fMGgFNC/pexels-photo-6194357.jpg",
+                    "https://i.ibb.co/ZXs2GhR/pexels-photo-10107413.jpg"
+                ],
+                "details":"The Palace of Versailles was the principal residence of the French kings from the time of Louis XIV to Louis XVI. Embellished by several generations of architects, sculptors, decorators and landscape architects, it provided Europe with a model of the ideal royal residence for over a century.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Côte d'Azur",
+                "picture":[
+                    " https://i.ibb.co/ykf1mwf/istockphoto-1052276576-612x612.jpg",
+                    " https://i.ibb.co/N7QHNrL/pexels-photo-3185315.jpg",
+                    "     https://i.ibb.co/zW3fvy4/pexels-photo-8011505.jpg",
+                    "    https://i.ibb.co/6F3PVcW/pexels-photo-14583019.jpg",
+                    "https://i.ibb.co/fNw0dVL/pexels-photo-14583020.jpg"
+                ],
+                "details":"Côte d'Azur, (French: “Coast of Azure”), cultural region in southeastern France encompassing the French Riviera (see Riviera) between Menton and Cannes in Alpes-Maritimes département and extending into southern Var département. The population is predominantly urban.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+
+            {
+                "area":"Mont Saint-Michel",
+                "picture":[
+                    "https://i.ibb.co/58cQjFP/mont-saint-michel-france-normandy-europe.jpg",
+                    "https://i.ibb.co/wQgpQJx/pexels-photo-2309272.jpg",
+                    "  https://i.ibb.co/VYP6HVB/pexels-photo-10521711.jpg",
+                    "   https://i.ibb.co/0Z0WDCb/pexels-photo-12839801.jpg",
+                    "   https://i.ibb.co/VHX9zqh/pexels-photo-14918481.jpg"
+                ],
+                "details":"Perched on a rocky islet in the midst of vast sandbanks exposed to powerful tides, at the limit between Normandy and Brittany, stands “Wonder of the West”, a Gothic-style Benedictine abbey dedicated to the Archangel St Michel, and the village that grew up in the shadow of its walls",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            }
+        ]
+    },
+    
+  
+
+    {
+        "name":"Italy",
+        "picture":"https://i.ibb.co/1XBXNxd/pexels-photo-1797161.jpg",
+        "details":"Italy is a boot-shaped peninsula that juts out of southern Europe into the Adriatic Sea, Tyrrhenian Sea, Mediterranean Sea, and other waters. Its location has played an important role in its history. The sea surrounds Italy, and mountains crisscross the interior, dividing it into regions",
+        "visitingArea":[
+            {
+                "area":"Colosseum",
+                "picture":[
+                    "    https://i.ibb.co/1XBXNxd/pexels-photo-1797161.jpg",
+                    "  https://i.ibb.co/L8D63YZ/pexels-photo-1809616.jpg",
+                    "https://i.ibb.co/q7rXLmK/pexels-photo-2225443.jpg",
+                    "    https://i.ibb.co/5MgywBJ/pexels-photo-11880970.jpg",
+                    "  https://i.ibb.co/h2YQtQq/pexels-photo-12496253.jpg"
+                    
+                ],
+                "details":" It is also called the Flavian Amphitheatre. It is an elliptical structure made of stone, concrete, and tuff, and it stands four stories tall at its highest point. It measures 620 by 513 feet (189 by 156 metres) and could hold as many as 50,000 spectators. The Colosseum was famously used for gladiatorial combat.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Venice Canals",
+                "picture":[
+                    "  https://i.ibb.co/Gs987vL/pexels-photo-534362.jpg",
+                    "https://i.ibb.co/6gHsJdG/pexels-photo-804954.jpg",
+                    " https://i.ibb.co/hBtjNBh/pexels-photo-4157142.jpg",
+                    " https://i.ibb.co/yqTnDJ5/pexels-photo-13509120.jpg",
+                    "https://i.ibb.co/Tq4jxj5/pexels-photo-14614290.jpg"
+                ],
+                "details":"The Grand Canal – the big canal that runs through the heart of Venice – is deeper, at an average of 5 metres, while the Canale della Giudecca – which separates the main part of Venice from the island of Giudecca – is around 12 to 17 metres deep.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+ 
+            {
+                "area":"Pompeii",
+                "picture":[
+                    " https://i.ibb.co/55gVg4m/istockphoto-518928771-612x612.jpg",
+                    "https://i.ibb.co/sKyxLnL/istockphoto-639917958-612x612.jpg",
+                    " https://i.ibb.co/vzy7Z3D/istockphoto-1151661542-612x612.jpg",
+                    "  https://i.ibb.co/vLq1yNp/pexels-photo-8912460.jpg",
+                    " https://i.ibb.co/Wysym8M/pexels-photo-14754619.webp"
+                ],
+                "details":"Pompeii, a flourishing resort city south of ancient Rome, was nestled along the coast of Italy in the shadow of Mount Vesuvius, an active volcano. Its most famous eruption took place in the year 79 A.D., when it buried the city of Pompeii under a thick carpet of volcanic ash.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+            
+            {
+                "area":"Leaning Tower of Pisa",
+                "picture":[
+                    "  https://i.ibb.co/xJLP2Vt/pexels-photo-1144271.jpg",
+                    " https://i.ibb.co/9V6xWzT/pexels-photo-1144276.jpg",
+                    "https://i.ibb.co/YcwqLdy/pexels-photo-6758172.jpg",
+                    "  https://i.ibb.co/QF49vPP/pexels-photo-7484058.jpg",
+                    " https://i.ibb.co/grQ6dLZ/pexels-photo-12046406.jpg"
+                ],
+                "details":"This famous tower began to tilt when its construction began in 1173. The Tower of Pisa measures 55.86 meters of height with an estimated weight of 14,700 tons and an inclination of about 4 ° extending 3.9 m of the vertical. In 1964 the Italian government asked for help to prevent the Tower of Pisa from collapsing.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Lake Como",
+                "picture":[
+                    "https://i.ibb.co/86ZW8St/pexels-photo-745205.jpg",
+                    " https://i.ibb.co/CWJ87QG/pexels-photo-5366524.jpg",
+                    "https://i.ibb.co/grQ6dLZ/pexels-photo-12046406.jpg",
+                    " https://i.ibb.co/9WMhyN3/pexels-photo-13379803.jpg",
+                    "https://i.ibb.co/8dNQJ0p/pexels-photo-15197915.jpg"
+                ],
+                "details":"Lake Como, with its total surface area of 146 square kilometres, is the third largest lake in Italy after Lakes Garda and Maggiore. The lake is of glacial origin and it plunges to a depth of 410 metres (approx. 1,345 feet) making it the deepest lake in Europe.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            }
+        ]
+    },
+    
+    {
+        "name":"Spain",
+        "picture":"https://i.ibb.co/Tw84BVZ/pexels-photo-2954406.jpg",
+        "details":"Spain is a country located in southwestern Europe on the Iberian Peninsula to the south of France and Andorra and to the east of Portugal. It has coastlines on the Bay of Biscay (a part of the Atlantic Ocean) and the Mediterranean Sea",
+        "visitingArea":[
+            {
+                "area":"Generalife Gardens",
+                "picture":[
+                    " https://i.ibb.co/Tw84BVZ/pexels-photo-2954406.jpg",
+                    "https://i.ibb.co/wQjvgPS/pexels-photo-4553658.jpg",
+                    "  https://i.ibb.co/82cBG8Z/pexels-photo-5037195.jpg",
+                    "https://i.ibb.co/3kH2D1X/pexels-photo-6848750.jpg",
+                    "https://i.ibb.co/TWk8SNS/pexels-photo-11829151.jpg"
+                ],
+                "details":"Gardens and Palaces Generalife Alhambra A recreation house of the sultans of Granada surrounded by orchards and gardens these newly created together with the amphitheater at the entrance, which hosts every year some of the shows of the Music and Dance Festival.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+           
+            {
+                "area":"Sagrada Familia ",
+                "picture":[
+                    " https://i.ibb.co/zxZY5Fs/pexels-photo-998736.jpg",
+                    " https://i.ibb.co/sHQK8BD/pexels-photo-3340939.jpg",
+                    "https://i.ibb.co/Rysz9nB/pexels-photo-4946708.jpg",
+                    "  https://i.ibb.co/TRJcv1N/pexels-photo-4947780.jpg",
+                    "   https://i.ibb.co/v4MG9CG/pexels-photo-6483239.jpg"
+                ],
+                "details":"The expiatory temple of the Sagrada Familia, the construction of which commenced in 1882, is today one of the emblems of Barcelona, known around the world and visited by millions of people. The part built by Gaudí was declared a UNESCO World Heritage Site in 2005",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+          
+            {
+                "area":"Great Mosque",
+                "picture":[
+                    "  https://i.ibb.co/D5vfQHF/pexels-photo-891125.jpg",
+                    "https://i.ibb.co/W6mJvwH/pexels-photo-11829248.jpg",
+                    " https://i.ibb.co/YZT0L6Y/pexels-photo-11829258.jpg",
+                    "https://i.ibb.co/hDTtqzW/pexels-photo-14083165.jpg",
+                    "  https://i.ibb.co/0Fmw2Sv/pexels-photo-14135870.jpg"
+                ],
+                "details":"It is comprised of a large hypostyle prayer hall (hypostyle means, filled with columns), a courtyard with a fountain in the middle, an orange grove, a covered walkway circling the courtyard, and a minaret (a tower used to call the faithful to prayer) that is now encased in a squared, tapered bell tower",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Paseo del Artes",
+                "picture":[
+                    "https://i.ibb.co/KKtwGBT/pexels-photo-3763907.jpg",
+                    "https://i.ibb.co/3W5Wjjc/pexels-photo-5005425.jpg",
+                    " https://i.ibb.co/BVXPCFr/pexels-photo-6499694.jpg",
+                    " https://i.ibb.co/7gQPZC9/pexels-photo-10882177.jpg",
+                    "https://i.ibb.co/dp8r557/pexels-photo-14631017.jpg"
+                ],
+                "details":"This area, known in English as the Art Walk, boasts art and beauty as you'll see nowhere else in the world. Along a stretch of just over one kilometre, you'll find the Prado Museum, the Thyssen-Bornemisza Museum and the Reina Sofía Museum, as well as a number of other institutions and buildings well worth visiting",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"San Lorenzo ",
+                "picture":[
+                    "https://i.ibb.co/vq31yBm/pexels-photo-8296764.jpg",
+                    "  https://i.ibb.co/smN8kz5/pexels-photo-14114429.jpg",
+                    "https://i.ibb.co/PYqLSB3/pexels-photo-14446028.jpg",
+                    " https://i.ibb.co/QjWV3Y3/pexels-photo-14558020.jpg",
+                    "https://i.ibb.co/6XypC33/pexels-photo-14938856.webp"
+                ],
+                "details":"Royal Site of San Lorenzo de El Escorial. The Escorial is a vast building complex located in San Lorenzo de El Escorial, near Madrid, in central Spain. The building is the most important architectural monument of the Spanish Renaissance. Construction of El Escorial began in 1563 and ended in 1584",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            }
+        ]
+    },
+    
+    
+    
+    
+    
+    
+
+    {
+        "name":"United States",
+        "picture":"https://i.ibb.co/mR3B8Fh/yosemite-national-park-landscape-california-144251.jpg",
+        "details":"The United States of America is the world's third largest country in size and nearly the third largest in terms of population. Located in North America, the country is bordered on the west by the Pacific Ocean and to the east by the Atlantic Ocean. Along the northern border is Canada and the southern border is Mexico.",
+        "visitingArea":[
+            {
+                "area":"Yosemite National Park",
+                "picture":[
+                    "https://i.ibb.co/BNrxmbG/pexels-photo-417074.jpg",
+                    "https://i.ibb.co/W6dBVCZ/pexels-photo-533881.jpg",
+                    "https://i.ibb.co/c6CbbxQ/pexels-photo-5164440.jpg",
+                    "https://i.ibb.co/V9g9q2d/pexels-photo-10047843.jpg",
+                    "https://i.ibb.co/mR3B8Fh/yosemite-national-park-landscape-california-144251.jpg"
+                ],
+                "details":"Stay with Us at the Yosemite Southgate Hotel while visiting Yosemite National Park. Stat at the Yosemite Southgate Hotel & Suites and get the lowest rates online. Best Online Rates. Free Parking. Free WiF",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Golden Gate Bridge",
+                "picture":[
+                    "https://i.ibb.co/7XL5xjn/golden-gate-bridge-suspension-san-francisco-california-161764.jpg",
+                    "https://i.ibb.co/gFwDDGz/pexels-photo.jpg",
+                    "https://i.ibb.co/9vZBGjr/pexels-photo-208745.jpg",
+                    "https://i.ibb.co/SrNSNjC/pexels-photo-372462.webp",
+                    "https://i.ibb.co/N6dwqdk/pexels-photo-833773.jpg"
+                ],
+                "details":"The Golden Gate Bridge is the second longest suspension bridge in the US and ninth longest in the world. It has a 1,280m long bridge span and connects San Francisco and Marin County. The bridge was opened in 1937 and has a main span of approximately 4,200ft and total length of 8,980ft (2,737m).",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+             
+
+            {
+                "area":"Yellowstone National Park",
+                "picture":[
+                    "https://i.ibb.co/cLpm8Br/pexels-photo-220032.jpg",
+                    "https://i.ibb.co/BNrxmbG/pexels-photo-417074.jpg",
+                    "https://i.ibb.co/0jwYNk9/pexels-photo-2416600.jpg",
+                    "https://i.ibb.co/YpPMPx2/pexels-photo-12217840.jpg",
+                    "https://i.ibb.co/9GGZLm9/pexels-photo-12971094.jpg"
+                ],
+                "details":"Yellowstone National Park sits on top of a dormant volcano and is home to more geysers and hot springs than any other place on earth. Wonders abound at this truly unique national park, from sites like the Yellowstone Grand Canyon to wildlife like America's largest buffalo herd, grizzly bears, and wolves.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            }, 
+
+            {
+                "area":"Walt Disney World® Resort",
+                "picture":[
+                    "https://i.ibb.co/RphB2D0/pexels-photo-3411132.jpg",
+                    "https://i.ibb.co/y65bMSn/pexels-photo-3411141.jpg",
+                    "https://i.ibb.co/RcTFgSC/pexels-photo-3526067.jpg",
+                    " https://i.ibb.co/BKnMLFS/pexels-photo-10067444.jpg",
+                    " https://i.ibb.co/tqWpvP4/pexels-photo-13071335.jpg"
+                ],
+                "details":"Walt Disney World Resort is an entertainment and recreation center of nearly 40 square miles featuring four theme parks (Magic Kingdom, Epcot, Disney's Hollywood Studios and Disney's Animal Kingdom); two water adventure parks (Disney's Blizzard Beach and Disney's Typhoon Lagoon);",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            },
+
+            {
+                "area":"Navy Pier",
+                "picture":[
+                    " https://i.ibb.co/p18R0v9/chicago-illinois-skyline-skyscrapers-161963.jpg",
+                    "https://i.ibb.co/LR7hVqR/pexels-photo-1200657.jpg",
+                    "https://i.ibb.co/3ppbd5Q/pexels-photo-9007426.jpg",
+                    "https://i.ibb.co/dJd0mS3/pexels-photo-9360975.jpg",
+                    "https://i.ibb.co/WPpCW07/pexels-photo-15081545.jpg"
+                ],
+                "details":"Navy Pier is a 3,300-foot-long (1,010 m) pier on the shoreline of Lake Michigan, located in the Streeterville neighborhood of the Near North Side community area in Chicago, Illinois, United States.",
+                "price":"1023",
+                "day":"03",
+                "rating":"5"
+            }
+        ]
+    }
+]

@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 import { Link } from "react-router-dom";
 import { FaLocationArrow, FaPeopleArrows, FaStar } from "react-icons/fa";
+import SliderCarouselStar from "../../SliderCarouselStar";
 
 const SliderCarousel = ({ carousels }) => {
   return (
@@ -52,20 +53,20 @@ const SliderCarousel = ({ carousels }) => {
           },
         }}
         modules={[Autoplay, Pagination, Navigation, FreeMode]}
-        className="mySwiper my-24 "
+        className="mySwiper my-16"
       >
         {carousels.map((slide) => (
           <SwiperSlide>
-            <div className="my-10">
+            <div className="md:my-10 overflow-hidden  relative">
               <Link>
                 <img
                   src={slide.picture}
-                  className="  justify-center items-center  rounded   aspect-square lg:hover:-translate-y-2  transform transition  duration-300 overflow-hidden"
+                  className=" w-full h-[270px] justify-center items-center  rounded   aspect-square lg:hover:scale-105  transform transition  duration-500 hover:duration-500 overflow-hidden"
                   alt=""
                 />
               </Link>
 
-              <div className="bg-sky-400 -mt-2 z-50">
+              <div className="bg-gray-200 -mt-1 z-50">
                 <div className="grid grid-cols-2 p-4">
                   <div className="flex gap-3">
                     <FaPeopleArrows></FaPeopleArrows>
@@ -82,16 +83,20 @@ const SliderCarousel = ({ carousels }) => {
 
               <div className=" bg-white shadow p-3">
                 <p className="md:text-sm lg:text-2xl font-bold">{slide.name}</p>
-                <p className="text-sm hidden lg:block">{slide.details.slice(0, 100)}.....</p>
+                <p className="text-sm hidden lg:block">
+                <span className="font-semibold ">Details: </span>
+                   {slide.details.slice(0, 100)}.....
+                </p>
                 <div className="gap-4 my-1">
-                  <p className="text-sm justify-end font-semibold"> price: {slide.balance}</p>
+                  <p className="text-lg justify-end font-semibold">
+                    {" "}
+                    price: {slide.balance}
+                  </p>
                   <div className="hidden lg:flex  gap-2 text-sm items-center ">
-                    <p>Rating: {slide.rating}</p>
-                    <FaStar className="text-sm"></FaStar>
-                    <FaStar className="text-sm"></FaStar>
-                    <FaStar className="text-sm"></FaStar>
-                    <FaStar className="text-sm"></FaStar>
-                    <FaStar className="text-sm"></FaStar>
+                    <span className="font-semibold ">Rating:</span>
+                    <SliderCarouselStar
+                      rating={slide.rating}
+                    ></SliderCarouselStar>
                   </div>
                 </div>
               </div>

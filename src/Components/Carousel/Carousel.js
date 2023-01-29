@@ -9,14 +9,10 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 
 import SideNav from "../Home/SideNav";
-import { useTypewriter } from "react-simple-typewriter";
+import { FaPlay } from "react-icons/fa";
+
 
 const Carousel = () => {
-  
-
-
-  
-
   return (
     <div>
       <Swiper
@@ -27,57 +23,66 @@ const Carousel = () => {
         spaceBetween={30}
         grabCursor={true}
         autoplay={{
-          delay: 3000,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation, FreeMode]}
-        className="mySwiper h-[70vh]"
+        className="mySwiper lg:h-[70vh]"
       >
         <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/Dw2rxmg/pexels-asad-photo-maldives-1591370.jpg"
-            alt=""
-          />
+        <div className="relative md:h-[400px] lg:h-[700px]">
+        <img
+          src="https://i.ibb.co/bmdH93t/pexels-gabriel-galvao-9494150.jpg"
+          className="absolute inset-0 object-cover w-full h-full"
+          alt=""
+        />
+        <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
+          <div>
+            <div className="hero-content text-center text-neutral-content ">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
+                Cox's Bazar
+                <br />
+                Bangladesh
+                </h1>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/dpNDbdM/pexels-arist-creathrive-2307635.jpg"
-            alt=""
-          />
-        </SwiperSlide>
 
         <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/2Nxydyf/pexels-marek-piwnicki-10050574.jpg"
-            alt=""
-          />
+        <div className="relative md:h-[400px] lg:h-[700px]">
+        <img
+          src="https://i.ibb.co/VCJp7sg/pexels-kimberly-mcneilus-2480626.jpg"
+          className="absolute inset-0 object-cover w-full h-full"
+          alt=""
+        />
+        <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
+          <div>
+            <div className="hero-content text-center text-neutral-content ">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
+                Bali
+                <br />
+                Indonesia
+                </h1>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
-          <img src="https://i.ibb.co/PzZrhgH/pexels-pixabay-41004.jpg" alt="" />
-        </SwiperSlide>
-
-        <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/JdGmZjd/pexels-ibadah-mimpi-3283186.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-
-        <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/FmYFxbY/pexels-julius-silver-753626.jpg"
-            alt=""
-          />
-        </SwiperSlide>
-
-        <SwiperSlide className="">
-          <img
-            src="https://i.ibb.co/PCGBxy0/pexels-tom-fisk-2213443.jpg"
-            alt=""
-          />
-        </SwiperSlide>
+     
       </Swiper>
 
       <div className="absolute z-50 hidden lg:block ">

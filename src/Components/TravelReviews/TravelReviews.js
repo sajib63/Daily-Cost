@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import TravelReviewsCarousel from "./TravelReviewsCarousel";
 
 const TravelReviews = () => {
+  const [reviews, setReviews] = useState([]);
+  useEffect(() => {
+    fetch("TravelReview.json")
+      .then((res) => res.json())
+      .then((data) => setReviews(data));
+  }, []);
   return (
-    <div
-      className=""style={{ backgroundImage: `url("https://i.ibb.co/5Ms8Fd2/pexels-andrea-piacquadio-3830880.jpg")` }}>
-      <div className="hero-content hero-overlay bg-opacity-60"></div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi dolor suscipit, animi qui odio consequatur pariatur debitis corrupti eaque earum illo! Atque quod et nemo, eum neque harum aut est ad delectus porro eaque earum inventore eligendi debitis repellendus voluptatum, animi sapiente sint id qui facilis quasi consectetur. Rem odit earum officiis eaque tempore eligendi sapiente, sed nam recusandae saepe fugiat itaque sit amet rerum alias expedita quam error ad illo nemo? Deleniti necessitatibus inventore, molestiae fugiat, explicabo nihil ipsum aut reprehenderit animi aperiam assumenda fuga atque? Ut obcaecati veniam a earum. Neque ipsa deleniti, odio quia ea totam quis possimus corrupti quas? Id quia optio nihil natus doloribus? Rem repudiandae architecto assumenda reprehenderit debitis quasi culpa, hic quidem in modi voluptatem non quisquam animi illo voluptates eos aspernatur sed neque, quod nesciunt accusantium odio quis doloribus! Porro harum labore tenetur provident. Consequuntur accusamus esse iste delectus a ab provident facilis et eos? Quidem reprehenderit vel totam assumenda cumque quaerat illum aliquid vero temporibus labore, incidunt nobis facere nesciunt commodi molestiae perferendis hic iusto! Doloribus voluptatum nesciunt est et enim fugiat odit qui magni, quas voluptates similique distinctio ad dolores corporis quia molestiae dicta, quibusdam aperiam deleniti quisquam quam dolor laboriosam accusantium iure. Quibusdam facere autem necessitatibus doloribus officiis laborum a maiores beatae, voluptatibus error ad sapiente nostrum assumenda! Expedita pariatur maiores, fuga asperiores commodi consequuntur? Asperiores fugit mollitia ab laborum facilis maxime, voluptate doloremque eos aut dolorum necessitatibus! Est exercitationem veritatis quas quaerat aspernatur quibusdam unde deleniti, sed, enim, quo ullam magnam dolore. Labore enim culpa et odit molestiae facere id tempora autem sunt cumque molestias, unde dolor quam, sed nesciunt officiis! Illum ipsa pariatur dolorem voluptatum ad esse optio nam ducimus rem qui. Earum, id impedit aut, maiores veniam dolor tempore, atque maxime velit inventore ipsum fugit? Iste saepe, illum modi quis, voluptate voluptas ut, maiores temporibus veritatis facilis delectus deserunt vel? Odit quae quam delectus animi atque eveniet expedita corporis nihil alias, minus soluta vitae maiores consequuntur repudiandae perspiciatis dolorum nesciunt vero porro numquam non est. Corrupti, veniam nesciunt. Aut asperiores, qui distinctio reprehenderit in dicta odit tempore nobis ullam accusantium quae, dignissimos ut hic debitis eveniet, excepturi provident illum numquam velit aliquid impedit. Obcaecati iste, voluptas libero, deserunt provident laudantium laborum quam, quis similique aut illum quo nulla possimus odit suscipit exercitationem doloremque ea! Suscipit sequi architecto ipsam culpa, totam assumenda dicta atque earum quos. Reiciendis pariatur impedit hic eum! A magnam aperiam dolore. Ipsa sunt quas veritatis eius, reprehenderit accusamus nostrum placeat, quidem nemo nobis facere iusto saepe perferendis quae recusandae similique neque! Consectetur cum iste repellendus reiciendis non numquam aperiam inventore voluptatem soluta, quia optio doloremque voluptas possimus sunt sint eveniet architecto eligendi perspiciatis tempora, molestiae incidunt. Recusandae temporibus laboriosam dolores tenetur aliquam vel officia autem. Totam fugit dolore alias cupiditate rerum. Reiciendis maxime amet possimus recusandae accusantium, sint, neque praesentium eligendi earum voluptate debitis tempora, aspernatur sed eaque tempore. Provident pariatur facere eaque? Error at necessitatibus suscipit ex molestiae, magni excepturi sunt.
+    <div className="">
+      <div className=" my-10">
+        <h1 className="font-mono text-sky-500 text-2xl  text-center mt-4">
+          Read The Top{" "}
+        </h1>
+        <h1 className="text-5xl font-bold text-white  text-center">
+          Travel Reviews
+        </h1>
+
+        <div className="my-16">
+          <TravelReviewsCarousel reviews={reviews}></TravelReviewsCarousel>
+        </div>
       </div>
     </div>
   );
