@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 
 import SideNav from "../Home/SideNav";
-import { FaPlay } from "react-icons/fa";
+import video from '../../Resource/subscrib.mp4'
 
 
 const Carousel = () => {
@@ -27,13 +27,12 @@ const Carousel = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation, FreeMode]}
-        className="mySwiper lg:h-[70vh]"
-      >
+        className="mySwiper lg:h-[70vh]" >
         <SwiperSlide className="">
-        <div className="relative md:h-[400px] lg:h-[700px]">
+        <div className="relative h-[300px] md:h-[400px] lg:h-[800px]">
         <img
-          src="https://i.ibb.co/bmdH93t/pexels-gabriel-galvao-9494150.jpg"
-          className="absolute inset-0 object-cover w-full h-full"
+          src="https://i.ibb.co/VCJp7sg/pexels-kimberly-mcneilus-2480626.jpg"
+          className="absolute inset-0 object-center w-full h-full"
           alt=""
         />
         <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
@@ -41,9 +40,9 @@ const Carousel = () => {
             <div className="hero-content text-center text-neutral-content ">
               <div className="max-w-md">
                 <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
-                Cox's Bazar
+                Bali
                 <br />
-                Bangladesh
+                Indonesia
                 </h1>
 
                 
@@ -57,10 +56,10 @@ const Carousel = () => {
 
 
         <SwiperSlide className="">
-        <div className="relative md:h-[400px] lg:h-[700px]">
+        <div className="relative h-[300px] md:h-[400px] lg:h-[800px]">
         <img
-          src="https://i.ibb.co/VCJp7sg/pexels-kimberly-mcneilus-2480626.jpg"
-          className="absolute inset-0 object-cover w-full h-full"
+          src="https://i.ibb.co/th3c7wN/pexels-dominika-gregu-ov-672532-1.jpg"
+          className="absolute inset-0 object-center w-full h-full"
           alt=""
         />
         <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
@@ -68,9 +67,62 @@ const Carousel = () => {
             <div className="hero-content text-center text-neutral-content ">
               <div className="max-w-md">
                 <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
-                Bali
+               London
                 <br />
-                Indonesia
+                England
+                </h1>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </SwiperSlide>
+
+
+        <SwiperSlide className="">
+        <div className="relative h-[300px] md:h-[400px] lg:h-[800px]">
+        <img
+          src="https://i.ibb.co/xCrCvYh/pexels-alina-gheordunescu-12284990.jpg"
+          className="absolute inset-0 object-center w-full h-full"
+          alt=""
+        />
+        <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
+          <div>
+            <div className="hero-content text-center text-neutral-content ">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
+                the blue mosque
+                <br />
+                Turkey
+                </h1>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="">
+        <div className="relative h-[300px] md:h-[400px] lg:h-[800px]">
+        <img
+          src="https://i.ibb.co/rM8LDNd/pexels-sudipta-mondal-1603650.jpg"
+          className="absolute inset-0 object-center w-full h-full"
+          alt=""
+        />
+        <div className=" h-full bg-gray-700 bg-opacity-75 justify-center relative flex items-center">
+          <div>
+            <div className="hero-content text-center text-neutral-content ">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
+                Taj Mahal
+                <br />
+                India
                 </h1>
 
                 

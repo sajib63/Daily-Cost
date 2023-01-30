@@ -14,7 +14,7 @@ const SearchCard = ({ search }) => {
         <div className="p-5 border border-t-0">
           <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
             <p className="transition-colors duration-200 text-blue-gray-900 ">
-              {name} Has {locations?.length} Visiting Area
+              {locations?.length} Visiting Area
             </p>
           </p>
           <h1 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 uppercase">

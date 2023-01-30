@@ -12,6 +12,7 @@ import SearchCard from "../SearchCard/SearchCard";
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "../../Loading/Loading";
 import Test from "../../Test/Test";
+import Video from "../Video/Video";
 
 const Home = () => {
   // const [tourism, setTourism] = useState([]);
@@ -68,20 +69,20 @@ const Home = () => {
           <h1 className="font-mono font-bold text-3xl text-sky-500 ">
             Search Your
           </h1>
-          <h1 className="font-mono font-bold text-5xl my-3 text-[#6c6d72f5] ">
+          <h1 className="font-mono font-bold text-2xl md:text-5xl md:my-3 text-[#6c6d72f5] ">
             Favourite Country
           </h1>
 
-          <div className="input-group justify-center items-center text-center">
+          <div className="input-group justify-center items-center text-center p-4 md:p-0">
             <input
               type="text"
               ref={searchRef}
               placeholder="Type your Country......"
-              className="input input-bordered w-[500px]"
+              className="input input-bordered w-full  md:w-[500px]"
             />
             <button
               onClick={handleSearch}
-              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-1/12"
+              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12"
             >
               Search
             </button>
@@ -95,64 +96,17 @@ const Home = () => {
         </div>
       </div>
 
-      {/* video section start  */}
+   
 
-      <div className="relative md:h-[400px] lg:h-[700px]">
-        <img
-          src="https://i.ibb.co/jZHDSDF/pexels-asad-photo-maldives-1591373.jpg"
-          className="absolute inset-0 object-cover w-full h-full"
-          alt=""
-        />
-        <div className=" h-full bg-gray-800 bg-opacity-75 justify-center items-center relative flex items-center">
-          <div>
-            <div className="hero-content text-center text-neutral-content ">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
-                  Go & Discover
-                </h1>
+     
 
-                <p className="mb-5 text-sm md:text-5xl">Breathtaking Cities</p>
-
-                <label
-                  htmlFor="VideoModal"
-                  className="btn bg-sky-500 border-0 hover:bg-sky-400 text-3xl"
-                >
-                  <FaPlay></FaPlay>
-                </label>
-              </div>
-            </div>
-          </div>
+      <div className="p-4 bg-gray-50">
+        <div className="container mx-auto  my-16 ">
+          <FourIconCards></FourIconCards>
         </div>
       </div>
 
-      {/* <div
-        className="hero md:h-[400px] lg:h-[700px]   "
-        style={{
-          backgroundImage: `url("https://i.ibb.co/FKmp8JZ/pexels-pok-rie-4631001.jpg")`,
-        }}>
-        <div >
-          <div className="hero-content text-center text-neutral-content ">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-sm md:text-4xl font-bold font-mono">
-                Go & Discover
-              </h1>
-
-              <p className="mb-5 text-sm md:text-5xl">Breathtaking Cities</p>
-
-              <label
-                htmlFor="VideoModal"
-                className="btn bg-sky-500 border-0 hover:bg-sky-400 text-3xl"
-              >
-                <FaPlay></FaPlay>
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>  */}
-
-      <div className="w-[1200px]">
-        <VideoModal></VideoModal>
-      </div>
+     
 
       {/* Tourism Area  */}
 
@@ -161,20 +115,20 @@ const Home = () => {
           <h1 className="font-mono font-bold text-3xl text-sky-500 ">
             Search Your
           </h1>
-          <h1 className="font-mono font-bold text-5xl my-3 text-[#6c6d72f5] ">
+          <h1 className="font-mono font-bold text-2xl md:text-5xl md:my-3 text-[#6c6d72f5]  ">
             Favourite Tourism Area
           </h1>
 
-          <div className="input-group justify-center items-center text-center">
+          <div className="input-group justify-center items-center text-center p-4 md:p-0">
             <input
               type="text"
               ref={searcTourism}
               placeholder="Type your Favourite Tourism Area......"
-              className="input input-bordered w-[500px]"
+              className="input input-bordered w-full  md:w-[500px]"
             />
             <button
               onClick={tourismSearch}
-              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-1/12"
+              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12"
             >
               Search
             </button>
@@ -191,13 +145,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="p-4 bg-gray-50">
-        <div className="container mx-auto  my-16 ">
-          <FourIconCards></FourIconCards>
-        </div>
-      </div>
+     
 
-      <div className="relative ">
+      {/* <div className="relative ">
         <img
           src="https://i.ibb.co/0jR2p4Q/pexels-pok-rie-3215467.jpg"
           className="absolute inset-0 object-cover w-full h-full"
@@ -207,14 +157,14 @@ const Home = () => {
         <div className="relative bg-gray-700 bg-opacity-75 ">
           <PerFactHoliday></PerFactHoliday>
         </div>
-      </div>
+      </div> */}
 
       <div className=" my-16">
         <MostVisited></MostVisited>
       </div>
       {/* test purpose  */}
       <div className="">
-      <Test></Test>
+        <Test></Test>
       </div>
     </div>
   );

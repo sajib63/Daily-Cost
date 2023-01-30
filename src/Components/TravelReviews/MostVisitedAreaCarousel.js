@@ -10,7 +10,7 @@ const MostVisitedAreaCarousel = ({visited}) => {
         <div className="">
           <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
            
-            <div className="flex lg:items-center">
+            <div className="md:flex lg:items-center">
               <div className=" mr-6 lg:mb-0 w-full">
                 <div className=" w-full ">
                   <img src={picture} className="w-full" alt="" />
@@ -47,7 +47,7 @@ const MostVisitedAreaCarousel = ({visited}) => {
             </p>
 
             <button className="px-3 py-2 rounded font-semibold bg-sky-300 border-0 hover:bg-sky-300 text-black">
-              Purchase
+              Book Now
             </button>
           </div>
         </div>

@@ -14,19 +14,19 @@ const Test = () => {
           <div className=" items-center justify-between xl:flex-row">
           <div className=" justify-center items-center">
          <div className="justify-center items-center text-center">
-         <h4 className="font-bold mb-3 text-2xl leading-9 text-white">
+         <h4 className="font-bold mb-3 text-md md:text-2xl leading-9 text-white">
               LET'S STAY IN TOUCH FOR BEST DEALS
             </h4>
             <p className="font-semibold mb-4 text-white">
-              Get latest update and offers from <span>The-Passenger</span>
+              Get latest update and offers from <span className="">The-Passenger</span>
             </p>
          </div>
-            <div className="form-control mx-auto w-6/12">
+            <div className="form-control mx-auto w-full md:w-6/12">
               <label className="input-group justify-center">
                 <input
                   type="text"
                   placeholder="Type Your Email................."
-                  className="input input-bordered w-8/12"
+                  className="input input-bordered w-full md:w-8/12"
                 />
                 <button
                   type="submit"

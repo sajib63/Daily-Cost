@@ -21,12 +21,12 @@ const AreaCarousel = ({pictures}) => {
         }}
         loop={true}
         spaceBetween={10}
-        navigation={true}
+       
           autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        thumbs={{ swiper: thumbsSwiper }}
+       
         modules={[Autoplay,FreeMode, Navigation, Thumbs]}
         className="mySwiper2"
       >

@@ -18,7 +18,7 @@ const MostVisited = () => {
   return (
     <div className="my-4 md:my-20 container mx-auto">
       <div className="justify-center text-center ">
-        <p className="text-xl md:text-5xl text-sky-300  font-bold ">Top Visited Area</p>
+        <p className="text-2xl md:text-5xl text-sky-300  font-bold ">Top Visited Area</p>
         
         <p className="w-1/2 mx-auto mt-4 font-semibold">
         The Top {mostVisited?.length} Most Visited Cities In The World.

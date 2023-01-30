@@ -45,7 +45,7 @@ const ChoseYourPerfectHoliday = ({ tour }) => {
             </p>
 
             <button className="btn  bg-sky-300 border-0 hover:bg-sky-300 text-black">
-              Purchase
+              Book Now
             </button>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router-dom";
-import StarRatings from "react-star-ratings";
-import AreaDetails from "../Area/AreaDetails";
+
 import Star from "../Area/Star";
 import AreaCarousel from "./AreaCarousel";
 

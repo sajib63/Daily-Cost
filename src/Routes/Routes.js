@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import AreaDetails from "../Components/Area/AreaDetails";
+
 import Area from "../Components/CountryArea/Area";
 import Home from "../Components/Home/Home";
 import Login from "../Components/Login";
@@ -29,11 +29,7 @@ export const router=createBrowserRouter([
             element:<Area></Area>
         },
 
-        {
-            path:'/areaDetails/:id',
-            loader: ({ params }) => fetch(`http://localhost:5000/areaDetails/${params.id}`),
-            element:<AreaDetails></AreaDetails>
-        }
+      
        ] 
     }
 ])
