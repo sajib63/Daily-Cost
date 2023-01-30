@@ -19,9 +19,6 @@ const Area = () => {
     picture,
   } = countryDetails;
 
-
-
-
   return (
     <div className="relative ">
       <img
@@ -40,7 +37,8 @@ const Area = () => {
                 <span className="font-semibold">Details:</span> {details}
               </p>
               <p className="max-w-xl mb-4 text-base text-white md:text-lg">
-                <span className="font-semibold">Total Location Can Visit:</span> {locations}
+                <span className="font-semibold">Total Location Can Visit:</span>{" "}
+                {locations}
               </p>
 
               <p className="max-w-xl mb-4 text-base text-white md:text-lg">
@@ -48,17 +46,19 @@ const Area = () => {
               </p>
 
               <p className="max-w-xl mb-4 text-base text-white md:text-lg">
-                <span  className="font-semibold">Price:</span> ${price}
+                <span className="font-semibold">Price:</span> ${price}
               </p>
 
               <p className="max-w-xl mb-4 text-base text-white md:text-lg flex gap-2 items-center">
-              <span  className="font-semibold">Rating:</span> <Star rating={rating}></Star>
-                
+                <span className="font-semibold">Rating:</span>{" "}
+                <Star rating={rating}></Star>
               </p>
-             
 
               <div>
-                <button className="btn bg-sky-300 w-full text-black hover:bg-sky-300">
+                <button
+                  className="btn bg-sky-300 w-full text-black hover:bg-sky-300"
+                  title="Login First"
+                >
                   Book Now
                 </button>
               </div>

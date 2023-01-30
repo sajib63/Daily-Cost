@@ -82,7 +82,7 @@ const Home = () => {
             />
             <button
               onClick={handleSearch}
-              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12"
+              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12 text-black"
             >
               Search
             </button>
@@ -96,17 +96,11 @@ const Home = () => {
         </div>
       </div>
 
-   
-
-     
-
       <div className="p-4 bg-gray-50">
         <div className="container mx-auto  my-16 ">
           <FourIconCards></FourIconCards>
         </div>
       </div>
-
-     
 
       {/* Tourism Area  */}
 
@@ -128,7 +122,7 @@ const Home = () => {
             />
             <button
               onClick={tourismSearch}
-              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12"
+              className="btn btn-square bg-sky-500 border-sky-500 hover:bg-sky-500 hover:border-sky-500 w-4/12 md:w-1/12 text-black"
             >
               Search
             </button>
@@ -145,9 +139,7 @@ const Home = () => {
         </div>
       </div>
 
-     
-
-      {/* <div className="relative ">
+      <div className="relative ">
         <img
           src="https://i.ibb.co/0jR2p4Q/pexels-pok-rie-3215467.jpg"
           className="absolute inset-0 object-cover w-full h-full"
@@ -157,7 +149,7 @@ const Home = () => {
         <div className="relative bg-gray-700 bg-opacity-75 ">
           <PerFactHoliday></PerFactHoliday>
         </div>
-      </div> */}
+      </div>
 
       <div className=" my-16">
         <MostVisited></MostVisited>

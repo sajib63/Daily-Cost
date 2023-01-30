@@ -1,10 +1,12 @@
 import React from "react";
+import { useContext } from "react";
 import { FaCartPlus, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import coinImage from "../Assets/carousel/cost/1.gif";
-
+import { AuthContext } from "../UserContext/UseContext";
 import "./Home/Home.css";
 const Navbar = () => {
+  const {user}=useContext(AuthContext)
+
   const navItems = (
     <>
       <li tabIndex={0}>
@@ -632,18 +634,9 @@ const Navbar = () => {
          
 
           <ul className="menu menu-horizontal p-0">
-          <li>
-            <Link className="hover:bg-white hover:text-sky-400 hover:underline">
-              Login
-            </Link>
-          </li>
-          <li>
-            <Link className="hover:bg-white hover:text-sky-400 hover:underline">
-              Register
-            </Link>
-          </li>
-
-          <li>
+            {
+              user?.email ? <>
+               <li>
             <Link className="hover:bg-white hover:text-sky-400 hover:underline">
             <FaCartPlus></FaCartPlus>
             </Link>
@@ -667,6 +660,21 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+              
+              </>:
+              
+              <>
+               <li>
+            <Link to={'/login'} className="hover:bg-white hover:text-sky-400 hover:underline text-lg">
+              Login
+            </Link>
+          </li>
+         
+              </> 
+            }
+         
+
+         
           </ul>
         </div>
       </div>

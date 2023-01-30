@@ -10,7 +10,6 @@ import "swiper/css/thumbs";
 import { Autoplay,FreeMode, Navigation, Thumbs } from "swiper";
 const AreaCarousel = ({pictures}) => {
 
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   
     return (
         <div>
@@ -32,7 +31,7 @@ const AreaCarousel = ({pictures}) => {
       >
         {
           pictures.map(picture=><SwiperSlide>
-            <img src={picture} />
+            <img src={picture} alt='' />
           </SwiperSlide>)
         }
        

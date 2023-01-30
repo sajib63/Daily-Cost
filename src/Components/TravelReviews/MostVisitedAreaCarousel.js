@@ -46,7 +46,7 @@ const MostVisitedAreaCarousel = ({visited}) => {
               <span>Price:</span> ${price}
             </p>
 
-            <button className="px-3 py-2 rounded font-semibold bg-sky-300 border-0 hover:bg-sky-300 text-black">
+            <button className="px-3 py-2 rounded font-semibold bg-sky-300 border-0 hover:bg-sky-300 text-black" title="Login First">
               Book Now
             </button>
           </div>
