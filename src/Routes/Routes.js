@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Cart from "../Components/Cart/Cart";
 
 import Area from "../Components/CountryArea/Area";
 import Home from "../Components/Home/Home";
@@ -43,6 +44,10 @@ export const router=createBrowserRouter([
         {
             path:'/register',
             element:<Register></Register>
+        },
+        {
+            path:'/cart',
+            element:<PrivateRoute><Cart></Cart></PrivateRoute>
         }
 
       

@@ -2,6 +2,8 @@ import React, { createContext, useState } from 'react';
 import { createUserWithEmailAndPassword, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import app from '../Firebase/firebase.init';
 import { useEffect } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { Loader } from '../Loading/Loading';
 
 export const AuthContext=createContext();
 
@@ -56,6 +58,16 @@ const updateUserProfile=(name, photo)=>{
         })
         return ()=> unsubscribed();
     },[])
+    const {data:bookingData=[], isLoading, refetch}=useQuery({
+        queryKey:['bookingData', user?.email],
+        queryFn: async()=>{
+            const res=await fetch(`http://localhost:5000/bookingData?email=${user?.email}`)
+            const data= await res.json()
+            return data;
+        }
+    })
+  
+    
     const userInfo={
         user,
         createUser,
@@ -64,7 +76,10 @@ const updateUserProfile=(name, photo)=>{
         logout,
         googleLogin,
         loader,
-        githubLogin
+        githubLogin,
+        bookingData,
+        isLoading, 
+        refetch
     }
     return (
         <AuthContext.Provider value={userInfo}>

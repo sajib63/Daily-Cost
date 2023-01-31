@@ -74,7 +74,7 @@ const Register = () => {
         .then(res => res.json())
         .then(data => {
 
-            toast.success('successfully saved')
+        
 
         })
         .catch(error => {

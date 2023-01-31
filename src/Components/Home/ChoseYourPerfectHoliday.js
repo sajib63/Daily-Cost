@@ -1,5 +1,6 @@
 import React from 'react';
 import { useContext } from 'react';
+import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import image from "../../Assets/greeting from paris.png";
 import { AuthContext } from '../../UserContext/UseContext';
@@ -7,7 +8,30 @@ import HolidayStar from "./HolidayStar";
 
 const ChoseYourPerfectHoliday = ({ tour }) => {
   const { details, name, night, picture, day, price, rating } = tour;
-  const {user}=useContext(AuthContext)
+  const {user,refetch}=useContext(AuthContext)
+  const email=user?.email;
+
+  const bookingData=()=>{
+      const data={
+          address:name, balance:price, details,man:day, name, picture, rating,email , night
+
+      }
+
+      fetch('http://localhost:5000/bookingData',{
+          method:"POST",
+          headers:{
+              'content-type':"application/json"
+          },
+          body:JSON.stringify(data)
+      })
+      .then(data=>{
+          toast.success('Successfully added to your card')
+          refetch()
+      })
+      .catch(error=>{
+          toast.error(error.message)
+      })
+  }
 
   return (
     <div className="flex overflow-hidden relative flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
@@ -49,7 +73,7 @@ const ChoseYourPerfectHoliday = ({ tour }) => {
 
             {user?.uid ? 
                   <>
-                    <button className="btn bg-sky-300 border-0  text-black hover:bg-sky-300">
+                    <button onClick={bookingData} className="btn bg-sky-300 border-0  text-black hover:bg-sky-300">
                       Book Now
                     </button>
                   </>

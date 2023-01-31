@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { toast } from "react-hot-toast";
 import { Link, useLoaderData } from "react-router-dom";
 import { AuthContext } from "../../UserContext/UseContext";
 
@@ -7,7 +8,7 @@ import AreaCarousel from "./AreaCarousel";
 
 const Area = () => {
   const countryDetails = useLoaderData();
-  const { user } = useContext(AuthContext);
+  const { user, refetch } = useContext(AuthContext);
 
   const {
     locations,
@@ -17,9 +18,32 @@ const Area = () => {
     pictures,
     price,
     rating,
-    id,
     picture,
   } = countryDetails;
+
+  const email=user?.email;
+
+  const bookingData=()=>{
+      const data={
+          address:locations[0], balance:price, details,man:day, name, picture, rating,email 
+
+      }
+
+      fetch('http://localhost:5000/bookingData',{
+          method:"POST",
+          headers:{
+              'content-type':"application/json"
+          },
+          body:JSON.stringify(data)
+      })
+      .then(data=>{
+          toast.success('Successfully added to your card')
+          refetch();
+      })
+      .catch(error=>{
+          toast.error(error.message)
+      })
+  }
 
   return (
     <div className="relative ">
@@ -59,7 +83,7 @@ const Area = () => {
               <div>
                
                  
-                    <button className="btn bg-sky-300 w-full text-black hover:bg-sky-300">
+                    <button onClick={bookingData} className="btn bg-sky-300 w-full text-black hover:bg-sky-300">
                       Book Now
                     </button>
                

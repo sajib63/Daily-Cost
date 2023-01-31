@@ -1,11 +1,21 @@
+import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { useContext } from "react";
 import { FaCartPlus, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Loader } from "../Loading/Loading";
 import { AuthContext } from "../UserContext/UseContext";
 import "./Home/Home.css";
+
 const Navbar = () => {
-  const {user, logout}=useContext(AuthContext)
+  const {user, logout, bookingData, isLoading}=useContext(AuthContext)
+
+
+if(isLoading){
+    return <Loader></Loader>
+    }
+
+
 
   const navItems = (
     <>
@@ -637,8 +647,9 @@ const Navbar = () => {
             {
               user?.email ? <>
                <li>
-            <Link className="hover:bg-white hover:text-sky-400 hover:underline">
+            <Link to={'/cart'} className="hover:bg-white hover:text-sky-400 ">
             <FaCartPlus></FaCartPlus>
+            <span className="-mt-7 -ml-3 text-black hover:text-black ">{bookingData?.length}</span>
             </Link>
           </li>
          
