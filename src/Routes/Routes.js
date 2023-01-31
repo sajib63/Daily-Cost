@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Area from "../Components/CountryArea/Area";
 import Home from "../Components/Home/Home";
 import Login from "../Components/Login";
+import PerfectHolidayDetails from "../Components/PerfectHoliday/PerfectHolidayDetails";
+import PrivateRoute from "../Components/PrivateRoutes/PrivateRoute";
 import Register from "../Components/Register";
 import Main from "../Layout/Main";
 
@@ -26,7 +28,12 @@ export const router=createBrowserRouter([
         {
             path:'/area/:id',
             loader: ({ params }) => fetch(`http://localhost:5000/allCountry/${params.id}`),
-            element:<Area></Area>
+            element:<PrivateRoute><Area></Area></PrivateRoute>
+        },
+        {
+            path:'/perfectHoliday/:id',
+            loader: ({ params }) => fetch(`http://localhost:5000/perfectHoliday/${params.id}`),
+            element:<PrivateRoute><PerfectHolidayDetails></PerfectHolidayDetails></PrivateRoute>
         },
 
         {

@@ -1,10 +1,13 @@
 import React from "react";
+import { useContext } from "react";
+import { AuthContext } from "../../UserContext/UseContext";
 import HolidayStar from "../Home/HolidayStar";
 
 
 const MostVisitedAreaCarousel = ({visited}) => {
     const {day, details, name, night, picture, price, rating}=visited
-    console.log(visited);
+   
+    const {user}=useContext(AuthContext)
     return (
         <div className="px-4  mx-auto ">
         <div className="">
@@ -46,9 +49,22 @@ const MostVisitedAreaCarousel = ({visited}) => {
               <span>Price:</span> ${price}
             </p>
 
-            <button className="px-3 py-2 rounded font-semibold bg-sky-300 border-0 hover:bg-sky-300 text-black" title="Login First">
-              Book Now
-            </button>
+            {user?.uid ? 
+                  <>
+                    <button className="btn bg-sky-300 border-0  text-black hover:bg-sky-300">
+                      Book Now
+                    </button>
+                  </>
+                 : 
+                  <>
+                    <button
+                      className="btn btn-disabled bg-gray-300 text-black hover:bg-sky-300"
+                    
+                    >
+                      Book Now
+                    </button>
+                  </>
+                }
           </div>
         </div>
               </div>

@@ -1,95 +1,83 @@
 [
-  
+  {
+    "name":"Spain",
+    "picture":"https://i.ibb.co/Tw84BVZ/pexels-photo-2954406.jpg",
+    "details":"Spain is a country located in southwestern Europe on the Iberian Peninsula to the south of France and Andorra and to the east of Portugal. It has coastlines on the Bay of Biscay (a part of the Atlantic Ocean) and the Mediterranean Sea",
+    "visitingArea":[
+        {
+            "area":"Generalife Gardens",
+            "picture":[
+                " https://i.ibb.co/Tw84BVZ/pexels-photo-2954406.jpg",
+                "https://i.ibb.co/wQjvgPS/pexels-photo-4553658.jpg",
+                "  https://i.ibb.co/82cBG8Z/pexels-photo-5037195.jpg",
+                "https://i.ibb.co/3kH2D1X/pexels-photo-6848750.jpg",
+                "https://i.ibb.co/TWk8SNS/pexels-photo-11829151.jpg"
+            ],
+            "details":"Gardens and Palaces Generalife Alhambra A recreation house of the sultans of Granada surrounded by orchards and gardens these newly created together with the amphitheater at the entrance, which hosts every year some of the shows of the Music and Dance Festival.",
+            "price":"1023",
+            "day":"03",
+            "rating":"5"
+        },
+       
+        {
+            "area":"Sagrada Familia ",
+            "picture":[
+                " https://i.ibb.co/zxZY5Fs/pexels-photo-998736.jpg",
+                " https://i.ibb.co/sHQK8BD/pexels-photo-3340939.jpg",
+                "https://i.ibb.co/Rysz9nB/pexels-photo-4946708.jpg",
+                "  https://i.ibb.co/TRJcv1N/pexels-photo-4947780.jpg",
+                "   https://i.ibb.co/v4MG9CG/pexels-photo-6483239.jpg"
+            ],
+            "details":"The expiatory temple of the Sagrada Familia, the construction of which commenced in 1882, is today one of the emblems of Barcelona, known around the world and visited by millions of people. The part built by Gaudí was declared a UNESCO World Heritage Site in 2005",
+            "price":"1023",
+            "day":"03",
+            "rating":"5"
+        },
+      
+        {
+            "area":"Great Mosque",
+            "picture":[
+                "  https://i.ibb.co/D5vfQHF/pexels-photo-891125.jpg",
+                "https://i.ibb.co/W6mJvwH/pexels-photo-11829248.jpg",
+                " https://i.ibb.co/YZT0L6Y/pexels-photo-11829258.jpg",
+                "https://i.ibb.co/hDTtqzW/pexels-photo-14083165.jpg",
+                "  https://i.ibb.co/0Fmw2Sv/pexels-photo-14135870.jpg"
+            ],
+            "details":"It is comprised of a large hypostyle prayer hall (hypostyle means, filled with columns), a courtyard with a fountain in the middle, an orange grove, a covered walkway circling the courtyard, and a minaret (a tower used to call the faithful to prayer) that is now encased in a squared, tapered bell tower",
+            "price":"1023",
+            "day":"03",
+            "rating":"5"
+        },
 
-    {
-      "man": "3",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$1,264.58",
-      "picture": "https://i.ibb.co/chWhKN2/13.jpghttps://i.ibb.co/7vQr003/1.jpgha Ayala",
-      "address": " Choctaw",
-      "name": "Mores"
-    },
-    {
-      "man": "2",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$3,102.13",
-      "picture": "https://i.ibb.co/Dwxr3Rt/pexels-imlfernandez-1926404.jpg",
-      "name": "Morris Torres",
-      "address": "Townsend"
-    },
-    {
-      "man": "3",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$3,843.59",
-      "picture": "https://i.ibb.co/J7QcmNJ/2.jpg",
-      "name": "Christian Sweeney",
-      "address": "Martinsville"
-    },
-    {
-      "man": "4",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$3,772.82",
-      "picture": "https://i.ibb.co/0Zw7Mny/9.jpg",
-      "name": "Jolene Alvarez",
-      "address": "Alderpoint"
-    },
-    {
-      "man": "5",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$2,740.78",
-      "picture": "https://i.ibb.co/VY9FcPG/8.jpg",
-      "name": "Rosetta Grimes",
-      "address": "Dalton"
-    },
-    {
-      "man": "6",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$1,943.03",
-      "picture": "https://i.ibb.co/6yj1DSg/7.jpg",
-      "name": "Branch Faulkner",
-      "address": "Juarez"
-    },
-    {
-      "man": "7",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$2,955.90",
-      "picture": "https://i.ibb.co/Dwxr3Rt/pexels-imlfernandez-1926404.jpg",
-      "name": "Hester Oneill",
-      "address": "Madrid"
-    },
-    {
-      "man": "8",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$3,680.47",
-      "picture": "https://i.ibb.co/S7d1KXr/3.jpg",
-      "name": "Tabatha Snyder",
-      "address": "Chicopee"
-    },
-    {
-      "man": "9",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$1,728.55",
-      "picture": "https://i.ibb.co/J7QcmNJ/2.jpg",
-      "name": "Rene Delacruz",
-      "address": "Hayden"
-    },
-    {
-      "man": "10",
-      "rating": 5,
-      "details": "Automatic document content processing is affected by artifacts caused by the shape of the paper, non-uniform and diverse color of lighting conditions. Fully-supervised methods on real data are impossible due to the large amount of data needed. Hence, the current state of the art deep learning models are trained on fully or partially synthetic images. However, document shadow or shading removal results still suffer because: (a) prior methods rely on uniformity of local color statistics, which limit their application on real-scenarios with complex document shapes and textures and; (b) synthetic or hybrid datasets with non-realistic, simulated lighting conditions are used to train the models. In this paper we tackle these problems with our two main contributions. First, a physically constrained learning-based method that directly estimates document reflectance based on intrinsic image formation which generalizes to challenging illumination conditions. Second, a new dataset that clearly improves previous synthetic ones, by adding a large range of realistic shading and diverse multi-illuminant conditions, uniquely customized to deal with documents in-the-wild. The proposed architecture works in a self-supervised manner where only the synthetic texture is used as a weak training signal (obviating the need for very costly ground truth with disentangled versions of shading and reflectance). The proposed approach leads to a significant generalization of document reflectance estimation in real scenes with challenging illumination. We extensively evaluate on the real benchmark datasets available for intrinsic image decomposition and document shadow removal tasks. Our reflectance estimation scheme, when used as a pre-processing step of an OCR pipeline, shows a 26% improvement of character error rate (CER), thus, proving the practical applicability.",
-      "balance": "$1,106.62",
-      "picture": "https://i.ibb.co/7vQr003/1.jpg",
-      "name": "Liza Meyers",
-      "address": "Louisiana"
-    }
-  
-  ]
+        {
+            "area":"Paseo del Artes",
+            "picture":[
+                "https://i.ibb.co/KKtwGBT/pexels-photo-3763907.jpg",
+                "https://i.ibb.co/3W5Wjjc/pexels-photo-5005425.jpg",
+                " https://i.ibb.co/BVXPCFr/pexels-photo-6499694.jpg",
+                " https://i.ibb.co/7gQPZC9/pexels-photo-10882177.jpg",
+                "https://i.ibb.co/dp8r557/pexels-photo-14631017.jpg"
+            ],
+            "details":"This area, known in English as the Art Walk, boasts art and beauty as you'll see nowhere else in the world. Along a stretch of just over one kilometre, you'll find the Prado Museum, the Thyssen-Bornemisza Museum and the Reina Sofía Museum, as well as a number of other institutions and buildings well worth visiting",
+            "price":"1023",
+            "day":"03",
+            "rating":"5"
+        },
+
+        {
+            "area":"San Lorenzo ",
+            "picture":[
+                "https://i.ibb.co/vq31yBm/pexels-photo-8296764.jpg",
+                "  https://i.ibb.co/smN8kz5/pexels-photo-14114429.jpg",
+                "https://i.ibb.co/PYqLSB3/pexels-photo-14446028.jpg",
+                " https://i.ibb.co/QjWV3Y3/pexels-photo-14558020.jpg",
+                "https://i.ibb.co/6XypC33/pexels-photo-14938856.webp"
+            ],
+            "details":"Royal Site of San Lorenzo de El Escorial. The Escorial is a vast building complex located in San Lorenzo de El Escorial, near Madrid, in central Spain. The building is the most important architectural monument of the Spanish Renaissance. Construction of El Escorial began in 1563 and ended in 1584",
+            "price":"1023",
+            "day":"03",
+            "rating":"5"
+        }
+    ]
+}
+]

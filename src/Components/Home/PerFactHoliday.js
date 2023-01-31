@@ -1,13 +1,24 @@
+import { useQuery } from "@tanstack/react-query";
 import React, { useEffect, useState } from "react";
+import { Loader } from "../../Loading/Loading";
 import SliderCarousel from "./SliderCarousel/SliderCarousel";
 
 const PerFactHoliday = () => {
-  const [carousels, setCarousel] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:5000/perfectHoliday")
-      .then((res) => res.json())
-      .then((data) => setCarousel(data));
-  }, []);
+
+
+  const {data: carousels=[], isLoading}=useQuery({
+    queryKey:["perfectHoliday"],
+    queryFn: async()=>{
+      const res=await fetch("http://localhost:5000/perfectHoliday")
+      const data=await res.json()
+      return data;
+    }
+    
+  })
+
+if(isLoading){
+  return <Loader></Loader>
+}
 
 
 

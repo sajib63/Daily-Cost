@@ -58,7 +58,7 @@ const SliderCarousel = ({ carousels }) => {
         {carousels.map((slide) => (
           <SwiperSlide>
             <div className="md:my-10 overflow-hidden  relative">
-              <Link>
+              <Link to={`/perfectHoliday/${slide._id}`}>
                 <img
                   src={slide.picture}
                   className=" w-full h-[270px] justify-center items-center  rounded   aspect-square lg:hover:scale-105  transform transition  duration-500 hover:duration-500 overflow-hidden"
@@ -85,7 +85,7 @@ const SliderCarousel = ({ carousels }) => {
                 <p className="md:text-sm lg:text-2xl font-bold">{slide.name}</p>
                 <p className="text-sm hidden lg:block">
                 <span className="font-semibold ">Details: </span>
-                   {slide.details.slice(0, 100)}.....
+                   {slide.details.slice(0, 50)}.....
                 </p>
                 <div className="gap-4 my-1">
                   <p className="text-lg justify-end font-semibold">

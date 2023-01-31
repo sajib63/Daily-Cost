@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../UserContext/UseContext";
 import "./Home/Home.css";
 const Navbar = () => {
-  const {user}=useContext(AuthContext)
+  const {user, logout}=useContext(AuthContext)
 
   const navItems = (
     <>
@@ -643,9 +643,10 @@ const Navbar = () => {
           </li>
          
             <li tabIndex={0}>
-              <Link className="justify-between hover:bg-white hover:text-sky-400 hover:underline">
+             
+              <button className="justify-between hover:bg-white hover:text-sky-400 hover:underline">
                 <FaUser></FaUser>
-              </Link>
+              </button>
               <ul className="p-2 bg-white shadow-2xl w-32 -ml-14 ">
                 <li>
                   <Link className="hover:bg-white hover:text-sky-400 hover:underline">
@@ -654,7 +655,7 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                  <Link className="hover:bg-white hover:text-sky-400 hover:underline">
+                  <Link onClick={logout} className="hover:bg-white hover:text-sky-400 hover:underline">
                     LogOut
                   </Link>
                 </li>

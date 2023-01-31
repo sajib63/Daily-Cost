@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import Carousel from "../Carousel/Carousel";
-import { FaPlay } from "react-icons/fa";
-import VideoModal from "./VideoModal";
 import FourIconCards from "./FourIconCards";
 import PerFactHoliday from "./PerFactHoliday";
 import "aos/dist/aos.css";
@@ -12,7 +10,7 @@ import SearchCard from "../SearchCard/SearchCard";
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "../../Loading/Loading";
 import Test from "../../Test/Test";
-import Video from "../Video/Video";
+
 
 const Home = () => {
   // const [tourism, setTourism] = useState([]);

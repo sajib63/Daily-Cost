@@ -1,10 +1,13 @@
 import React from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import image from "../../Assets/greeting from paris.png";
+import { AuthContext } from '../../UserContext/UseContext';
 import HolidayStar from "./HolidayStar";
 
 const ChoseYourPerfectHoliday = ({ tour }) => {
   const { details, name, night, picture, day, price, rating } = tour;
+  const {user}=useContext(AuthContext)
 
   return (
     <div className="flex overflow-hidden relative flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
@@ -44,9 +47,22 @@ const ChoseYourPerfectHoliday = ({ tour }) => {
               <span>Price:</span> ${price}
             </p>
 
-            <button className="btn  bg-sky-300 border-0 hover:bg-sky-300 text-black" title="Login First">
-              Book Now
-            </button>
+            {user?.uid ? 
+                  <>
+                    <button className="btn bg-sky-300 border-0  text-black hover:bg-sky-300">
+                      Book Now
+                    </button>
+                  </>
+                 : 
+                  <>
+                    <button
+                      className="btn btn-disabled bg-gray-300 text-black hover:bg-sky-300"
+                    
+                    >
+                      Book Now
+                    </button>
+                  </>
+                }
           </div>
         </div>
       </div>
