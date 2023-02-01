@@ -401,7 +401,7 @@ if(isLoading){
                   to=""
                   className="hover:bg-white hover:text-sky-400 hover:underline"
                 >
-                  Team{" "}
+                  Team
                 </Link>
               </li>
               <li>
@@ -659,11 +659,7 @@ if(isLoading){
                 <FaUser></FaUser>
               </button>
               <ul className="p-2 bg-white shadow-2xl w-32 -ml-14 ">
-                <li>
-                  <Link className="hover:bg-white hover:text-sky-400 hover:underline">
-                    DashBoard
-                  </Link>
-                </li>
+               
 
                 <li>
                   <Link onClick={logout} className="hover:bg-white hover:text-sky-400 hover:underline">
